@@ -1,0 +1,89 @@
+Option Explicit
+'On another sheet
+
+
+Private Sub CommandButton21_Click()
+    [c5] = Timer
+    Application.ScreenUpdating = False
+    CalcG
+    OutITT
+    Application.ScreenUpdating = True
+    [d5] = Timer - [c5]
+End Sub
+Sub OutITT()
+' makes data labels if XY scatter Graph better to read
+
+
+    Dim v#, Ri%
+    For Ri = 11 To 28
+        Cells(Ri, 10) = Format(Cells(Ri, 6), "##.#")
+        Cells(Ri, 11) = Format(Cells(Ri, 7), "##.#")
+        Cells(Ri, 12) = Format(Cells(Ri, 8), "##.#")
+    Next Ri
+
+
+End Sub
+Sub CalcG()
+
+
+    Dim LH%, Wc As Worksheet, Ti%, Rot%, rS#
+    Dim sRiseA#, sSetA#, RiseTime#, SetTime#, RiseAzimuth#, SetAzimuth#
+
+
+
+
+    Set Wc = Sheets("Calculations")
+   'NOAA solar Calculations with "D4 to end  deleted
+   
+   ' Wc.Cells(7, 2) = [b7]  ' set the Date  to whatever is in B7
+    Wc.Cells(2, 4) = [b7] ' set the Date  to whatever is in B7
+    Rot = 10  ' Row Out
+    '
+    'sunrise
+    RiseTime = Wc.Cells(3, 25)
+    Wc.Cells(6, 2) = RiseTime
+    RiseAzimuth = Wc.Cells(3, 34)
+    sRiseA = Wc.Cells(3, 33)
+    RiseAzimuth = Wc.Cells(3, 34)
+    RiseTime = RiseTime * 24
+    '
+    'sunset
+    SetTime = Wc.Cells(3, 26)
+    Wc.Cells(6, 2) = SetTime
+    sSetA = Wc.Cells(3, 33)
+    SetAzimuth = 360 - Wc.Cells(3, 34)
+    SetTime = SetTime * 24
+    For Ti = 5 To 20
+        rS = Ti
+        If Ti > RiseTime And RiseTime <> 0 Then    ' put in rise
+            Rot = Rot + 1
+            Cells(Rot, 6) = RiseTime
+            Cells(Rot, 7) = sRiseA
+            Cells(Rot, 8) = RiseAzimuth
+            RiseTime = 0
+        End If
+        If Ti > SetTime And SetTime <> 0 Then    ' put in set
+            Rot = Rot + 1
+            Cells(Rot, 6) = SetTime
+            Cells(Rot, 7) = sSetA
+            Cells(Rot, 8) = SetAzimuth
+
+
+            SetTime = 0
+        End If
+
+
+        Rot = Rot + 1
+        Wc.Cells(6, 2) = rS / 24 ' time
+        Cells(Rot, 6) = rS
+        Cells(Rot, 7) = Wc.Cells(3, 33)
+        Cells(Rot, 8) = Wc.Cells(3, 34)
+        If Cells(Rot, 8) > 180 Then Cells(Rot, 8) = 360 - Cells(Rot, 8)
+
+
+    Next Ti
+
+
+
+
+End Sub
