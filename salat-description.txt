@@ -1,0 +1,12 @@
+Salat is a prayer times reminder. It uses spherical trigonometry (Invented by Muslims) to calculate the correct time of 5 prayers and sunrise at your latitude and longitude. 
+More than 36500 cities are included by default in the software. In the remote event of your locality not being in the database, simply type in your latitude and longitude (get these easily from wikimapia or google maps) to add your city/village/locality to the database.
+
+Salat also calculates the lunar phase for any day from 140 BC to 3000 AD and shows it graphically. It also gives you lunar age, zodiac, ecliptic latitude, ecliptic longitude, and distance from earth at any instant.
+
+Salat also provides Hijri date for any Gregorian date.
+
+It has a nice translucent interface, sits unobtrusively in you system tray and calls adan for all five salats.
+
+Adans are customizable. So is the pretty clock and interface. 
+
+All Mad'habs (Shafi'ee, Hanafi, Hanbali and Maliki) are supported. You can also set the astronomical twilight angle to decide fajr and isha times. (Default is the standard angle of 18 degrees).

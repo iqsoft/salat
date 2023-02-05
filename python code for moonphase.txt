@@ -1,0 +1,80 @@
+   1.
+      # Determine the moon phase of a date given
+   2.
+      # Python code by HAB
+   3.
+       
+   4.
+      def moon_phase(month, day, year):
+   5.
+      ages = [18, 0, 11, 22, 3, 14, 25, 6, 17, 28, 9, 20, 1, 12, 23, 4, 15, 26, 7]
+   6.
+      offsets = [-1, 1, 0, 1, 2, 3, 4, 5, 7, 7, 9, 9]
+   7.
+      description = ["new (totally dark)",
+   8.
+      "waxing crescent (increasing to full)",
+   9.
+      "in its first quarter (increasing to full)",
+  10.
+      "waxing gibbous (increasing to full)",
+  11.
+      "full (full light)",
+  12.
+      "waning gibbous (decreasing from full)",
+  13.
+      "in its last quarter (decreasing from full)",
+  14.
+      "waning crescent (decreasing from full)"]
+  15.
+      months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+  16.
+       
+  17.
+      if day == 31:
+  18.
+      day = 1
+  19.
+      days_into_phase = ((ages[(year + 1) % 19] + ((day + offsets[month-1]) % 30) + (year < 1900)) % 30)
+  20.
+      index = int((days_into_phase + 2) * 16/59.0)
+  21.
+      if index > 7:
+  22.
+      index = 7
+  23.
+      status = description[index]
+  24.
+       
+  25.
+      # light should be 100% 15 days into phase
+  26.
+      light = int(2 * days_into_phase * 100/29)
+  27.
+      if light > 100:
+  28.
+      light = abs(light - 200);
+  29.
+      date = "%d%s%d" % (day, months[month-1], year)
+  30.
+       
+  31.
+      return date, status, light
+  32.
+       
+  33.
+       
+  34.
+      # put in a date you want ...
+  35.
+      month = 5
+  36.
+      day = 14
+  37.
+      year = 2006 # use yyyy format
+  38.
+       
+  39.
+      date, status, light = moon_phase(month, day, year)
+  40.
+      print "moon phase on %s is %s, light = %d%s" % (date, status, light, '%')

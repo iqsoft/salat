@@ -1,0 +1,790 @@
+Qibla Direction (Mathematical)DIRECTION FOR KABAH (Mathematical) - FROM ANYWHERE
+                      Bismillah hir-Rahman nir-Rahim
+   (I begin with the Name of ALLAH, The Most Beneficent, The Most Merciful)
+
+         ***********************************************************
+         * THE MUSLIM STUDENTS' ASSOCIATION OF COLUMBIA UNIVERSITY *
+         * 102 Earl Hall, Columbia University, NEW YORK, NY 10027  *
+         ***********************************************************
+                                                    1 Muharram 1415
+                                                   11 June     1994
+
+          *******************************************************
+          *  DIRECTION FOR KABAH (Mathematical) - FROM ANYWHERE *
+          *******************************************************
+
+                        Dr.Mohibullah N.Durrani,
+                        National Coordinator for 
+                        Astronomical Information,
+                Islamic Society of North America (ISNA).
+                           Copyright (c) 1994
+
+           [Permission for free distribution is given to all.]
+
+   The calculation for the Mathematical Direction for Kabah from any point
+   on the surface of the world is a comparatively simple calculation.
+   (NOTE: I am NOT presenting a Proof by Fiqh. I am only presenting the
+    information, based on Spherical Tigonometry.)
+   
+   The calculations are based on SPHERICAL TRIGONOMETRY.
+
+   (The actual shape of the earth can be better approximated as an
+    oblate ellipsoid of revolution, or spheroid. For the present,
+    only a spherical shape has been considered. The variation is
+    not much, for the purposes of determining the direction for the Kabah. 
+    In future, the other shapes will be included, inshallah.)
+   
+   There are some references given at the end of this document.
+
+   The information is presented in the following sections:
+
+             
+             A. Overview.
+             
+             B. True Directions (and Magnetic) for the Kabah 
+                          from various cities around the world.
+             
+             C. Spherical Trigonometry (Fundamentals).
+             
+             D. Examples: 1. Points around the North Pole (NP), 
+                                    all on the same Latitude, NEAR THE NP.
+                          2. Points around the North Pole,
+                                    on constant Latitudes, upto Equator.
+                          3. Points on the same Latitude as Kabah.
+                          4. Points all around Kabah (0 Deg to 360 Deg).
+                          5. Points on the same Longitude as Kabah.
+                          6. Points at approximately the center of 
+                                    U.S.A., France, Australia, Japan.
+             
+             E. References.
+
+                            A. OVERVIEW
+                            ***********
+
+SPHERICAL TRIGONOMETRY IS USED. This is because the Latitudes, Longitudes, 
+and the Cardinal Directions (North, N; South, S; East, E; and West, W) 
+are all defined on an equivalent sphere representing the Earth.
+The Equivalent Earth redius is 6,378.14 Kilometers.
+
+    THE SHORTEST DISTANCE BETWEEN ANY TWO POINTS IS ALONG A GREAT CIRCLE.
+    *********************************************************************
+
+Consider two places "A" and "B".
+If   "B" is North-East (N-E) of "A", then IT IS POSSIBLE
+that "A" is North-West (N-W) of "B" (Note: NOT South-West, S-W) !!!
+
+This is because of the definitions of N, S, E, and W directions and
+the changing North direction (when viewed globally) from point to point.
+Please see the examples presented in Section D.
+
+           IN NORTH AMERICA, THE QIBLA IS MOSTLY NORTH-OF-EAST.
+           ****************************************************
+         Please see Section B for actual values of the directions 
+                for the Qibla at places all around the globe.
+
+         
+         COUNTRY    Latitude  Longitude   QIBLA DIRECTION (From TRUE NORTH)
+         ==================================================================
+         
+         Australia: 30 Deg S  130 Deg E   289 Deg E-of-N 
+                                          (19 Deg N of W)
+         
+         France:    43 Deg N    3 Deg E   113 Deg E-of-N 
+                                          (23 Deg S of E)
+         
+         Japan:     35 Deg N  140 Deg E   293 Deg E-of-N 
+                                          (23 Deg N of W; NOT S of W !!)
+        
+         U.S.A.:    40 Deg N  100 Deg W    39 Deg E-of-N 
+                                          (51 Deg N of E; NOT S of E !!)
+         
+
+The difference between the TRUE NORTH direction and the MAGNETIC NORTH
+direction varies from place to place and also varies slightly every year.
+The "Variation" between the True and Magnetic North, at places around
+the world, can vary upto nearly 25 Degrees East and 25 Degrees West,
+for the list of places mentioned in Section B, and the actual value of
+the variation can be easily obtained from Reference 2.
+
+              "AND ALLAH (swt) KNOWS BEST, AND HE IS MOST WISE"
+               ************************************************
+
+                            B. KIBLA DIRECTION
+                            ******************
+
+ [======================================================================]
+ |                                                                      |
+ |               QIBLA DIRECTIONS FROM AROUND THE WORLD                 |
+ |               **************************************                 |
+ |                                                      1 Muharram 1415 |
+ |                      Dr.Mohibullah N.Durrani        11 June     1994 |
+ |                         Copyright (c) 1994                           |
+ |                                                                      |
+ |         [Permission for free distribution is given to all.]          |
+ |                                                                      |
+ +======================================================================+                              
+ |      D I R E C T I O N   O F   Q-I-B-L-A,    EAST-of-NORTH  (AZ)     |
+ |======================================================================|
+ | CITY - Country   Lat    Long  | From  | From  |  1992  Annual 1995   |
+ |                 (N +)   (E +) | TRUE  | MAGNT |  Var   Drift Total   |
+ |                 (S -)   (W -) | NORTH | NORTH |  Deg   Min   Var-Min |
+ +===============================|=======|=======|======================|
+ |                               |       |       |                      |
+ | MAKKAH-S.Arab    21.4   39.8  |   -   |   -   |   -     -      -     |
+ | DAR SALAM-Tnz    -6.8   39.2  |   1.2 |   3.1 |  2.0W  1.2E   1.9W   |
+ | MOSCOW - USSR    55.8   37.6  | 176.4 | 168.0 |  8.3E  1.3E   8.4E   |
+ | ISTANBUL-Turk    41.0   28.9  | 151.5 | 148.1 |  3.4E  0.8E   3.4E   |
+ | CAIRO - Egypt    30.1   31.3  | 136.7 |  34.3 |  2.3E  1.2E   2.4E   |
+ | KHARTOUM-Sudn    15.5   32.6  |  48.1 |  46.7 |  1.3E  1.7E   1.4E   |
+ | CAPETOWN-S.Af   -33.8   18.6  |  23.2 |  46.2 | 22.8W  3.0W  23.0W   |
+ | LAGOS-Nigeria     6.5    3.4  |  63.3 |  68.2 |  5.2W  6.8E   4.9W   |
+ |                               |       |       |                      |
+ | ALGIERS-Algra    36.8    3.0  | 105.5 | 107.1 |  1.9W  6.2E   1.6W   |
+ | GREENWICH-Engl   51.5    0.0  | 119.2 | 123.7 |  4.8W  6.8E   4.5W   |
+ | DAKAR-Senegal    14.7  -17.5  |  74.0 |  84.7 | 11.0W  7.1E  10.7W   |                                                         
+ |                               |       |       |                      |
+ | RIO DeJENEIRO   -22.9  -43.2  |  67.6 |  88.3 | 20.4W  6.2W  20.7W   |
+ | PARAMARIBO-Suri   5.9  -55.2  |  68.2 |  83.9 | 15.4W  6.3W  15.7W   |
+ | BUNOS ARESarg   -34.7  -58.4  |  76.3 |  81.6 |  4.9W  7.8W   5.3W   |
+ | LIMA-Peru S.A   -12.4  -77.0  |  72.2 |  70.7 |  2.0E 10.6W   1.5E   |
+ |                               |       |       |                      |
+ | HALIFAX -CNDA    44.6  -63.6  |  65.6 |  85.9 | 20.4W  1.3E  20.3W   |
+ | NEW YORK -USA    40.8  -74.0  |  58.5 |  73.3 | 14.6W  3.7W  14.8W   |
+ | WASH DC  -USA    38.9  -77.0  |  56.6 |  66.9 | 10.0W  5.2W  10.3W   |
+ | MIAMI   - USA    25.8  -80.2  |  56.6 |  60.7 |  3.7W  8.2W   4.1W   |
+ | CHICAGO - USA    41.2  -87.6  |  48.8 |  50.7 |  1.6W  5.4W   1.9W   |
+ | DALLAS  - USA    32.8  -96.8  |  43.5 |  37.9 |  5.8E  4.0W   5.6E   |
+ | DENVER  - USA    39.7 -105.0  |  35.0 |  23.9 | 11.3E  3.3W  11.1E   |
+ | SAN DIEGO-USA    32.7 -117.1  |  25.4 |  12.2 | 13.3E  1.7W  13.2E   |
+ | SAN FRANCISCO    37.7 -122.4  |  18.9 |   3.3 | 15.8E  3.3W  15.6E   |
+ | VANCOUVER-CND    49.3 -123.1  |  16.7 | 356.2 | 20.8E  6.7W  20.5E   |
+ |                               |       |       |                      |
+ | ANCHORAGE-Als    61.1 -150.0  | 350.8 | 326.9 | 24.2E  5.5W  23.9E   |
+ | HONOLULU -Hwi    21.3 -157.5  | 337.3 | 326.6 | 10.8E  2.8W  10.7E   |
+ |                               |       |       |                      |
+ | SYDNEY-Austra   -33.9  151.2  | 277.5 | 265.1 | 12.4E  0.9E  12.5E   |
+ | TOKYO - Japan    35.7  139.7  | 293.0 | 299.8 |  6.7W  1.2W   6.8W   |
+ | BEIJING-China    39.9  116.4  | 278.9 | 284.8 |  5.9W  0.2W   5.9W   |
+ | JAKARTA-Indon    -6.3  106.9  | 295.1 | 295.1 |  0.0W  0.7W   0.0W   |
+ | DHAKA -B.Desh    23.8   90.3  | 277.5 | 278.2 |  0.7W  1.0E   0.7W   |
+ | AGRA  - India    27.2   77.9  | 269.0 | 268.9 |  0.0E  1.1E   0.1E   |
+ | PESHAWAR -Pak    33.6   71.4  | 254.5 | 252.5 |  2.0E  0.7E   2.0E   |
+ | BUKHARA -Uzbk    39.6   64.6  | 236.6 | 232.6 |  4.0E  0.3E   4.0E   |
+ | TEHRAN - Iran    35.7   51.4  | 218.4 | 214.8 |  3.6E  0.0E   3.6E   |
+ |                               |       |       |                      |
+ [======================================================================]
+
+                        C. SPHERICAL TRIGONOMETRY
+                        *************************
+
+I will present, inshallah, some basics of Spherical Astronomy and 
+then obtain the direction for Kabah from some points on the globe.
+
+The EARTH can be considered as an APPROXIMATE SPHERE.
+The variation between the actual shape of the earth (oblate ellipsoid, or
+spheroid) and the approximating sphere is not more than a few degrees in
+azimuth and is not very significant for the purpose of determination of 
+the direction of the Kabah.
+
+The earth can be sliced "vertically" by LONGITUDES, from 0 Deg Longitude, 
+through Greenwich, England, to 180 Deg East (E) Longitude, and 
+from 0 Deg Longitude to 180 Deg West (W) Longitude. 
+
+The earth can also be sliced "horizontally" by LATITUDES, from 0 Deg Latitude
+(the Equator) to 90 Deg North (N) Latitude (the North Pole), and
+from 0 Deg Latitude (Equator) to 90 Deg South (S) Latitude (the South Pole).
+The Latitude is the angle at the center of the earth, from the Equator to 
+the point on the surface of the earth, on the same Longitude.
+
+The intersection of the surface of a sphere with a plane through the
+center of the sphere is a circle called the GREAT CIRCLE. 
+Longitudes are all Great Circles. The Equator is also a Great Circle.
+When two Great Circles intersect, the angle between the tangents of the
+two Great Circles, at the point of intersection, is the SPHERICAL ANGLE.
+
+ ***************************************************************************
+ * THE SHORTEST DISTANCE BETWEEN ANY TWO POINTS ON THE SURFACE OF A SPHERE *
+ *                         IS ALONG A GREAT CIRCLE                            *
+ *            BASED ON THE PRINCIPLES OF SHPERICAL TRIGONOMETRY            *
+ ***************************************************************************
+
+>From any point on the earth, the North (N) direction is defined as 
+the direction pointing to the North Pole. The AZIMUTH ( [AZ], angular 
+direction, in degrees, of any one point from any other point) is the 
+angular rotation FROM TRUE NORTH (not magnetic North) in a ClockWise (CW)
+direction.
+
+              North  (N) is   0 Deg  CW from N   [AZ =   0]   
+              East   (E) is  90 Deg  CW from N   [AZ =  90]
+              South  (S) is 180 Deg  CW from N   [AZ = 180]
+              West   (W) is 270 Deg  CW from N   [AZ = 270]
+        
+        North-East (N-E) is  45 Deg  CW from N   [AZ =  45]
+        South-East (S-E) is 135 Deg  CW from N   [AZ = 135]
+        South-West (S-W) is 225 Deg  CW from N   [AZ = 225]
+        North-West (N-W) is 315 Deg  CW from N   [AZ = 315]
+        
+               (S is also   180 Deg CCW from N)  [AZ = 180]
+               (W is also    90 Deg CCW from N)  [AZ = 270]
+                       (CCW = CounterClockWise)
+
+      ***************************************************************     
+      *     THE NORTH DIRECTIONS FROM POINTS ON THE SAME LATITUDE   *
+      *               ARE NOT PARALLEL TO ONE ANOTHER.              *
+      * (Only exception are points on 0 Deg latitude, the Equator.) *
+      ***************************************************************
+
+In a Spherical Triangle, three points on the surface of a sphere are joined
+by three lines on the surface of the sphere. Each of the lines (shortest 
+distance) joining any two of the three points are on a Great Circle.
+
+The vertex A can represent the North Pole, P,
+the vertex B can represent the location of Kabah, K, and
+the vertex C can represent any City, 
+             from where the direction of Kabah needs to be located.
+
+                             
+                             A, North Pole (P)
+
+                                 ^
+                             /        \ 
+                          / ------------- \
+                       /       A, Angle      \
+                     /                          \    c, Side
+                   /                              \    
+                  /                                 \
+      b, Side    /                                   \
+                /                          B, Angle / \
+               /                                   /   |
+               /                             ------/----v B, Kabah (K)
+               |\   C, Angle      -----------
+               |  \     -----------             
+               v---\-----          a, Side
+             C, City
+
+The SIDES are curves on the spherical surface of the sphere, 
+ON GREAT CIRCLES (it is difficult to represent curves in ASCII file, 
+as shown above, but please use your imagination, hopefully just a little !!!)
+
+The length of SIDES are represented by "degrees" at the center of the sphere.
+The three Spherical SIDES  are denoted by LOWER CASE LETTERS, ex. a,b,c.
+The three Spherical ANGLES are denoted by UPPER CASE LETTERS, ex. A,B,C.
+The Angles are at the intersection points (vertices) of the sides, and 
+the Sides are the ones opposite to the intersection points (angles).
+
+Spherical Trigonometric formulae exist which relate the sides and angles
+of Spherical Triangles. We shall use one such formula.
+
+                           
+                           THE FOUR PART FORMULA
+                           =====================
+
+            cos B  COS A   =   sin b  cot c   -   SIN A  COT C
+
+                   rearranging the terms, we obtain
+                          __                                   __
+                     -1  |                 SIN A                 |
+          C   =   TAN    |  -----------------------------------  |
+                         |__  sin b  cot c   -   cos b  COS A  __|
+
+                  Note: UPPER CASE Letters are ANGLES,
+                        Lower Case Letters are Sides.
+                        
+          Computed answers could be supplements, compliments, etc.
+          of actual values depending on your computing machine's 
+          evaluation of trigonometric functions.
+
+Let us now consider a numerical example, "near" the North Pole.
+The formula is valid for any choice of points B and C.
+(For directions for the Qibla, please see later section of this document.)
+
+Consider two points "B" and "C" on the SAME Latitude of 80 Degrees North.
+Let the Longitude of "B" be 0 Degrees and that of "C" be 90 Degrees East.
+
+Then, the spherical triangle would have:
+Angle "A" = 90 Degrees (the difference in the Longitudes of "B" and "C") 
+Side  "b" = 10 Degrees (90 - Latitude of Point "C" = 90 - 80 = 10 Deg)
+Side  "c" = 10 Degrees (90 - Latitude of Point "B" = 90 - 80 = 10 Deg)
+                          __                                   __
+                     -1  |                 SIN A                 |
+          C   =   TAN    |  -----------------------------------  |
+                         |__  sin b  cot c   -   cos b  COS A  __|
+                          __                                       __
+                     -1  |                   SIN 90                  |
+          C   =   TAN    |  ---------------------------------------  |
+                         |__  sin 10  cot 10   -   cos 10  COS 90  __|
+                          __                                       __
+                     -1  |                   1.000                   |
+          C   =   TAN    |  ---------------------------------------  |
+                         |__  sin 10  cot 10   -   cos 10  COS 90  __|
+          
+          C   =   45.44 Degrees
+
+Note: Even though B and C are on the SAME LATITUDE,             
+      B is approximately North-East (45 Deg E of N) of C !!!
+
+                        D. EXAMPLES
+                        ***********
+
+All the examples in this section do NOT include the variation of
+the Magnetic North Pole from the (True) North Pole. The values
+given in Section B includes, in addition, the Qibla direction as read 
+from a magnetic compass, and hence from the Magnetic North Pole.
+             
+          Examples: 1. Points around the North Pole (NP), 
+                              all on the same Latitude, NEAR THE NP.
+                    2. Points around the North Pole,
+                              on constant Latitudes, upto Equator.
+                    3. Points on the same Latitude as Kabah.
+                    4. Points all around Kabah (0 Deg to 360 Deg).
+                    5. Points on the same Longitude as Kabah.
+                    6. Points at approximately the center of 
+                              U.S.A., France, Australia, Japan.
+             
+
+EXAMPLE D-1: Points around the North Pole (NP), all on the same Latitude, 
+=========================================================================
+                    NEAR THE NP.
+                    ============
+
+This is an INTERESTING EXAMPLE. It seems contrary to "intuition".
+Many CONCEPTS OF SPHERICAL TRIGONOMETRY can be understood by this
+"extreme" case of pints on a constant Latitude circle around and
+NEAR THE NORTH POLE.
+
+Consider a Circle around the North Pole with a small radius 
+of only ten (10) feet. Choose "N" as the center of the circle. 
+We choose four points around the circumference, "A" at 0 Deg, 
+"B" at 90 Deg, "C" at 180 Deg, and "D" at 270 Deg. Choose the 
+positive direction of the "X" axis from the center of the circle, 
+"N", through the Point "A" on the circumference. Choose the positive 
+direction of the "Y" axis from the center, "N", through the Point "B" on 
+the circumference. On this small scale for our circle, ALL POINTS "A", "B", 
+"C", "D", and "N" ARE DIRECTLY VISIBLE FROM EACH OF THE OTHER POINTS.
+Join DA and drop a perpendicular from N to DA to intersect DA at "E".
+Exprapolate NE to meet the circumference of the circle at "F".
+
+                                   Y
+                                 ^
+                                 |
+                                 | B (90 Deg)
+                           ------+------
+                        /        |        \
+                      /          |          \
+                     (           |           )
+                C    |           | N         |  A (0 Deg)
+            (180 Deg)+-----------+-----------+--------------->    X 
+                     |           | \       / |
+                     (           |    \E/    )
+                      \          |    /  \  /
+                        \        | /      / F
+                           ------+------
+                                  D (270 Deg)
+
+Since the center of this circle is the North Pole, "N", each INWARD-DRAWN 
+RADIUS, from any point on the circumference would be the NORTH DIRECTION 
+for that particular point on the circumference. Similarly, EN is the North 
+direction for point E. These North directions are NOT parallel to each other. 
+The North directions converge to the center of the circle, which we had 
+chosen as the North Pole.
+
+The North (N) direction is defined as the direction pointing to the 
+North Pole. The AZIMUTH (angular direction, in degrees, of any one 
+point from any other point) is the angular rotation FROM NORTH, 
+in a ClockWise direction.
+
+The following can be obtained, by direct inspection (no need to calculate):
+
+>From "A" the North direction is AN (0 Deg Azimuth). 
+The direction of "B" from "A" is "North-East" (N-E), ( 45 Deg Azimuth).
+The direction of "C" from "A" is "North"      (N),   (  0 Deg Azimuth).
+The direction of "D" from "A" is "North-West" (N-W), (315 Deg Azimuth).
+
+>From "B" the North direction is BN (0 Deg Azimuth). 
+The direction of "C" from "B" is "North-East" (N-E), ( 45 Deg Azimuth).
+The direction of "D" from "B" is "North"      (N),   (  0 Deg Azimuth).
+The direction of "A" from "B" is "North-West" (N-W), (315 Deg Azimuth).
+
+>From "C" the North direction is CN (0 Deg Azimuth). 
+The direction of "D" from "C" is "North-East" (N-E), ( 45 Deg Azimuth).
+The direction of "A" from "C" is "North"      (N),   (  0 Deg Azimuth).
+The direction of "B" from "C" is "North-West" (N-W), (315 Deg Azimuth).
+
+>From "D" the North direction is DN (0 Deg Azimuth). 
+The direction of "A" from "D" is "North-East" (N-E), ( 45 Deg Azimuth).
+The direction of "B" from "D" is "North"      (N),   (  0 Deg Azimuth).
+The direction of "C" from "D" is "North-West" (N-W), (315 Deg Azimuth).
+
+Since the circle has the North Pole as its center, the 
+points on the circle can be considered as a having the same latitude,
+the latititude being very close to 90 Deg (but smaller than 90 Deg,
+since the Latitude of the North Pole is exactly 90 Deg, by definition).
+       
+                We note some VERY INTERESTING facts:
+                ************************************
+
+All points on the circle have the SAME LATITUDE.
+Even though "B", "C", and "D" are on the same latitude as "A", 
+"B" is North-East (N-E) of "A", C is N of A, and D is N-W of A.
+Similarly, C, D, and A are on the same latitude as B,
+C is N-E of B, D is N of B, and A is N-W of B; and similarly,
+D is N-E of C, A is N of C, and B is N-W of C;
+A is N-E of D, B is N of D, and C is N-W of D.
+
+    *******************************************************************
+    *   When "B" is North-East (N-E) of "A", for this small circle,   *
+    *        "A" is North-West (N-W) of "B" !!!  (NOT S-W !!!)        *
+    *******************************************************************       
+
+The direction from "A" to other points on the same Latitude circle is 
+along points that are on the LINE-of-the-SHORTEST-DISTANCE joining that
+particular point and the point "A". The Line of the Shortest Distance is 
+along the GREAT CIRCLE. The direct direction is NOT along points on the 
+same Latitude. (Only exception is for points on the equator).
+The SHORTEST (Direct) DISTANCE between any two points on the surface of
+the earth is along the Great Circle.
+
+We also note that at the point "A", due "East" is 90 Degrees ClockWise (CW)
+from the North direction (N is along the radius AN), hence is perpendicular 
+to the radius AN, and hence tangential to the circumference of the circle. 
+If a person travels due East from point "A", and that person travels in a
+"straight line" (along the Great Circle) and does not change direction,  
+then he would be travelling along the tangent (at"A") to the circle,
+and hence moving "away" from the circle. This would cause the latitude
+of the person to change while traveling in the "straight line" !!
+As the person travels in the "straight line" the direction of East
+would no longer be "straight ahead" since the North direction would
+change and hence the Ease direction would also change !
+
+Consider again the "small" circle around the North Pole.
+For a person to "FACE" Point "A" from Point "D", that person would have
+to face in the North-East (N-E) direction at "D". When that person travels
+in a "STRAIGHT LINE" along DA, the person is INITIALLY ORIENTED towards
+the NORTH-EAST direction (defined at Point D) while AT POINT D. Continuing 
+to travel from D, WITHOUT CHANGING THE DIRECTION OF TRAVEL IN THE 
+"STRAIGHT LINE" to an intermediate point E (note that NE is perpendicular 
+to DEA), the INTERMEDIATE ORIENTATION is DUE EAST AT POINT E, to continue
+from E towards A. Further continuing to travel from E, WITHOUT CHANGING 
+THE DIRECTION OF TRAVEL IN THE "STRAIGHT LINE" to a final pint A, the
+FINAL ORIENTATION is SOUTH-EAST at POINT A.
+
+              **********************************************
+              *   TRAVEL EVEN IN A "STRAIGHT LINE" CAUSES  *
+              * THE ORIENTATION TO CHANGE WHILE TRAVELLING *
+              **********************************************
+
+STRAIGHT LINE TRAVEL FROM POINT "D", THROUGH POINT "E", TO POINT "A":
+
+LOCATION POINT:  Point D     Point E   Point A
+ORIENTATION:     North-East   East     South-East
+NORTH DIRECTION:   DN          EN         AN
+
+If the person travelled a little distance due East from Point D,
+since direction East is no longer in the person's line of travel 
+(the North direction changes from point to point) the person 
+re-orients towards due East and again travels a short distance,
+and again re-orients towards the new East direction and travels a
+short distance, then that person WOULD BE TRAVELLING IN A CIRCLE
+(from Point D, to Point F, to Point A) and would NOT be travelling
+in a "straight line"  from Point D, to Point E, to Point A.
+
+EXAMPLE D-2: Points around the North Pole (NP), on constant Latitudes, 
+======================================================================
+                    upto the EQUATOR
+                    ================
+
+This is the general case of Example D-1 and D-3. We will consider only             
+four (4) points on each Latitude, at Longitudes 0, 90E, 180, 90W Degrees.
+Since both the points are on the same latitude, the equation for the
+Azimuth (given in Section C) is reduced to:
+                 
+                                   __             __
+                              -1  |      1.000      |
+                   C   =   TAN    |  -------------  |
+                                  |__  sin (PHI)  __|
+
+                     where ANGLE PHI = Latitude
+
+              Near NP                                           Near Equator
+  N Latitude:  89.99  89.9  89  85  80  70  60  50  40  30  21  20  10  00
+  Direction 
+  "A from D":  45.00  45.0  45  45  45  47  49  53  57  63  70  71  80  90            
+  "B from D":  00.00  00.0  00  00  00  00  00  00  00  00  00  00  00  00
+  "C from D": 315.00 315.0 315 315 315 313 311 307 303 297 290 289 280 270
+                (All Directions are Azimuthal, ie E of N.)
+                                
+
+                                180
+                          /------|------\
+                        /      B |        \
+                      /          |          \
+                     (           |           )
+                 90  |           | N       A |  90       
+                West |-----------+-----------|  East
+                     | C         |           |
+                     (           |           )
+                      \          |          /
+                        \        | D      /  
+                          \------|------/            
+                                 0 Deg                
+
+                                 |
+                    West <-------|-------> East
+                                 |
+                             "P L A N"
+                                
+                                
+                                90N
+                          /------|------\
+            21N         /        |        \
+                \     /          |          \     /  21N
+                  ' .(           |           ). '    KABAH
+                     |  '    .   |   .    '  |           
+         Equator   0 |-----------+-----------| 0   Equator
+                     |  .    '   |           |
+                 / ' (           |           )
+            21S       \          |          /
+                        \        |        /  
+                          \------|------/             
+                                90S                  
+
+                    140 W        |         40 E
+                    Long <-------|-------> Long
+                                 |
+                             "E L E V"
+
+     
+     Places on any particular Longitude are the same distance apart 
+             if they have the same difference in Latitude. 
+  A 10 Deg difference in Latitude has the same distance at any Longitude,
+              and the distance is approximately 692 miles.
+
+     Places on any particular Latitude are the same distance apart
+             if they have the same difference in Longitude.
+      A 10 Deg difference in Longitude has a greater distance at 
+   Latitudes closer to the Equator than at latitudes closer to the Poles.
+      
+      At the Equator (00 Deg Lat) a 1 Deg Long difference is 69 miles,
+      further north  (40 Deg Lat) a 1 Deg Long difference is 53 miles, and
+      further north  (60 Deg Lat) a 1 Deg Long difference is 35 miles.
+
+EXAMPLE D-3: Points on the same Latitude as Kabah 
+=================================================          
+
+All points have the same Latitude as that of Kabah (21 Deg N).
+The Longitudes are taken in steps of 30 Degrees (Kabah: Long 40 Deg E).
+
+For ease of presenting the directions, the Lat and Long of Kabah have been
+approximated to:   Latitude   21 Deg North (21 Degrees  26 Minutes)
+                   Longitude  40 Deg East  (39 Degrees  49 Minutes)
+                 
+    Latitude     21N  21N  21N  21N  21N  21N  21N  21N  21N  21N  21N
+    Longitude    10E  20W  50W  80W 110W 140W 170W 160E 130E 100E  70E
+    Direction *   85   78   70   58   37    0  323  302  290  282  275
+              *  All Directions are Azimuthal, ie E of N.
+
+Note that the Azimuths to Kabah CHANGES even though all the points are 
+on the same Latitude of Kabah (21 Deg N). In fact, the Azimuth is 0 Deg,
+ie due North, when the Long of a point is 140 Deg West, this direction is 
+90 Deg CCW from East !!
+                                                               
+                    140         180
+                    West\ /------|------\
+                        / \      |        \
+                      /     \    |          \
+                     (        \  |           )
+                 90  |          \|           |  90       
+                West |-----------+-----------|  East
+                     |           | \         |
+                     (           |   \       )
+                      \          |     \    /
+                        \        |       \/  
+                          \------|------/  \ 40 East
+                                 0 Deg         KABAH
+
+                                 |
+                    West <-------|-------> East
+                                 |
+                             "P L A N"
+
+EXAMPLE D-4: Points around Kabah (0 Deg to 360 Deg).
+====================================================
+             
+We will consider eight (8) points around the Kabah, with each point at
+a constant difference (DIFF) in Latitude (Lat) and/or Longitude (Long) 
+from Kabah. The direction for the Qibla would be the direction for the 
+"Shortest Distance" to Kabah.
+
+For ease of presenting the directions, the Lat and Long of Kabah have been
+approximated to:   Latitude   21 Deg North (21 Degrees  26 Minutes)
+                   Longitude  40 Deg East  (39 Degrees  49 Minutes)
+                 
+
+                                  ^ N                  D = Difference in
+                                  |                          Lat &/or Long
+                                  |                    O = Point "Oh", Origin
+                 6                | 3              7   0 = Numeral Zero
+                   [--------------+--------------]
+              (O+D , O-D)    (O+D , O+0)    (O+D , O+D)
+                   |              |              |
+                   |              |              |
+                   |              |              |
+                 2 |              | 0            | 4
+                   +--------------+--------------+-------->  E
+              (O+0 , O-D)    (O+0 , O+0)    (O+0 , O+D)
+                   |              |              |
+                   |              |              |
+                   |              |              |
+                 5 |              | 1            | 8
+                   [--------------+--------------]
+              (O-D , O-D)    (O-D , O+0)    (O-D , O+D)
+                                            (Latitude, Longitude)
+
+
+                DIRECTIONS TO KABAH FOR POINTS AROUND KABAH
+                ===========================================
+
+ ***************************************************************************
+ * Pt|Guess|  DIFFerence in Latitude and/or Longitude of points from Kabah *
+ *-------------------------------------------------------------------------*
+ * No|Angle|   0.01   0.10   0.5     1      2      5     10    20   40  60 *
+ ***************************************************************************
+ *   |     |                                                               *
+ * 1 |   0 |   0.00   0.00   0.0     0.0    0.0    0.0    0.0   0    0   0 *
+ * 2 |  90 |  89.99  89.98  89.9    89.8   89.6   89.1   88.2  86   83  78 *
+ * 3 | 180 | 180.00 180.00 180.0   180.0  180.0  180.0  180.0 180  180 180 *
+ * 4 | 270 | 270.00 270.02 270.1   270.2  270.4  270.9  271.8 274  277 282 *
+ *   |     |                                                               *
+ * 5 |  45 |  43.03  43.02  42.99   42.95  42.88  42.7   42.6  43   46  55 *
+ * 6 | 135 | 136.97 136.96 136.93  136.88 136.79 136.5  135.7 134  127 117 *
+ * 7 | 225 | 223.03 223.04 223.08  223.12 223.22 223.5  224.3 226  233 243 *
+ * 8 | 315 | 316.97 316.98 317.01  317.05 317.12 317.3  317.4 317  314 305 *
+ *   |     |                                                               *
+ ***************************************************************************
+
+Note that our "Guess" at Point No.2, for the direction of the Kabah is 
+90 Deg (ie Due East). As the difference in Longitude from Kabah increases 
+(but at the same Latitude), the directions to the Kabah changes upto 
+78 Deg E of N (NOT CONSTANT AT 90 Deg) for a Longitude difference of 60 Deg.
+from Kabah. Similar variations are evident for many of the other points.
+Also note that the actual distance for 10 Deg North/South is greater
+than the distance for 10 Deg East/West because Kabah is not at the Equator 
+but is at 21 Deg North.
+
+EXAMPLE D-5: Points on the same Longitude as Kabah 
+==================================================
+
+All points have the same Longitude as that of Kabah (40 Deg E).
+The Latitudes are taken in steps of 30 Degrees, (21N, 51N, 81N,
+69N, 39N, 09N, 21S, 51S, 81S, 69S, 39S, and 09S) with intermediate
+latitudes at locations of interest.
+
+For ease of presenting the directions, the Lat and Long of Kabah have been
+approximated to:   Latitude   21 Deg North (21 Degrees  26 Minutes)
+                   Longitude  40 Deg East  (39 Degrees  49 Minutes)
+                 
+
+Latitude     20N    21N  22N  51N  81N  89N  90N       89N
+Longitude    40E    40E  40E  40E  40E  40E  40E      140W
+Direction *    0     -   180  180  180  180  180         0
+               N     -     S    S    S    S    S         N
+
+Latitude     90N    90N  89N  69N  39N  22N  21N  20N  09N  20S     21S   22S 
+Longitude    40E   140W 140W 140W 140W 140W 140W 140W 140W 140W    140W  140W 
+Direction *  180      0    0    0    0    0    0    0    0    0      +    180  
+               S      N    N    N    N    N    N    N    N    N      +      S  
+
+Latitude     20S    21S  22S  51S  81S  89S  90S       90S 
+Longitude   140W   140W 140W 140W 140W 140W 140W       40E 
+Direction *    0     +   180  180  180  180  180         0 
+               N     +     S    S    S    S    S         N 
+
+Latitude     90S    90S  89S  69S  39S  09S  20N       21N  22N 
+Longitude   140W    40E  40E  40E  40E  40E  40E       40E  40E
+Direction *  180      0    0    0    0    0    0        -   180
+               S      N    N    N    N    N    N        -     S
+
+                  * All Directions are Azimuthal, ie E of N.
+                    Direction of   0 Deg is due North = N
+                    Direction of 180 Deg is due South = S
+
+ + The Qibla direction can be in ANY DIRECTION since 
+   this point (21S 140W) is directly opposite to the Kabah 
+   on the spherical globe.
+
+Note that even though at the Latitude of 69N (this Latitude is N of Kabah), 
+and at Longitude of 140W, the direction for the Qibla is NORTH !!
+Similarly even though at the Latitude is 51S (this Latitude is S of Kabah), 
+and at Longitude of 140W, the direction for the Qibla is SOUTH !!
+
+                                90N
+                          /------|------\
+            21N         /        |        \
+                \     /          |          \     /  21N
+                  ' .(           |           ). '    KABAH
+                     |  '    .   |   .    '  |           
+         Equator   0 |-----------+-----------| 0   Equator
+                     |  .    '   |           |
+                 / ' (           |           )
+            21S       \          |          /
+                        \        |        /  
+                          \------|------/             
+                                90S                  
+
+                    140 W        |         40 E
+                    Long <-------|-------> Long
+                                 |
+                             "E L E V"
+
+EXAMPLE D-6: Points at approximately the center of various countries
+====================================================================
+                          
+           Latitude  Longitude   Qibla Direction from TRUE North
+
+Australia: 30 Deg S  130 Deg E   289 Deg E-of-N (19 Deg N of W)
+France:    43 Deg N    3 Deg E   113 Deg E-of-N (23 Deg S of E)
+Japan:     35 Deg N  140 Deg E   293 Deg E-of-N (23 Deg N of W; NOT S of W)
+U.S.A.:    40 Deg N  100 Deg W    39 Deg E-of-N (51 Deg N of E; NOT S of E)
+        
+
+                             E. REFERENCES
+                             *************
+
+              1. Textbook of Spherical Astronomy,
+                 W.M.Smart, Cambridge University Press
+
+              2. Magnetic Variation      (Declination)
+                 (Epoch 1990), Map No.42 (10th Ed, Feb 1992)
+                 World Map, U.S.A Defense Mapping Agency
+
+              3. Explanatory Supplement to the Astronomical Almanac, 1992
+                 Ed. P.K.Seidelmann, U.S.Naval Observatory, Wash.DC.
+
+              4. Map Projections used by the U.S.Geological Survey
+                 Geological Survey Bulletin 1532, 2nd Ed, 1983
+
+              "AND ALLAH (swt) KNOWS BEST, AND HE IS MOST WISE"
+               ************************************************
+   
+    "YOU (the Muslims) are the BEST NATION that was brought to humanity,
+     enjoining al-ma'ruf (the right) and forbidding al-munkar (the worng)
+     and believing in ALLAH"      
+       
+               THE HOLY QURAN, Chap 3, Verse 110.
+
+      OF ALL THE DIVINE BOOKS THAT THEMSELVES CLAIM TO BE THE WORD OF GOD
+      THE HOLY QURAN IS THE MOST AUTHENTIC TO ITS ORIGINAL REVELATION !!!
+
+  @@@@@@@@@@@@@@@@@@@@@@@@@@  End of Document  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  Look For The CRESCENT MOON ( HILAL ),  --- >>>                         )
+   It Is One Of THE MOST BEAUTIFUL OF CREATIONS;  ---- >>>>               )
+    Then Offer An INTENSE PRAYER To The ONE CREATOR, ---- >>>>           )
+     All Sincere DEVOTIONS Are Surely ACCEPTED.  --- >>>               )
+___________________________
+mnd@columbia.edu
+
+
+
+
+Return to islamworld.net

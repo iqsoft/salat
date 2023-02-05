@@ -1,0 +1,66 @@
+   1.
+      # create a soundfile in AU format playing a sine wave
+   2.
+      # of a given frequency, duration and volume
+   3.
+      # tested with Python25 by vegaseat 29jan2008
+   4.
+       
+   5.
+      from struct import pack
+   6.
+      from math import sin, pi
+   7.
+       
+   8.
+      def au_file(name='test.au', freq=440, dur=1000, vol=0.5):
+   9.
+      """
+  10.
+      creates an AU format audio file of a sine wave
+  11.
+      of frequency freq (Hz)
+  12.
+      for duration dur (milliseconds)
+  13.
+      at volume vol (max is 1.0)
+  14.
+      """
+  15.
+      fout = open(name, 'wb')
+  16.
+      # header needs size, encoding=2, sampling_rate=8000, channel=1
+  17.
+      fout.write('.snd' + pack('>5L', 24, 8*dur, 2, 8000, 1))
+  18.
+      factor = 2 * pi * freq/8000
+  19.
+      # write data
+  20.
+      for seg in range(8 * dur):
+  21.
+      # sine wave calculations
+  22.
+      sin_seg = sin(seg * factor)
+  23.
+      fout.write(pack('b', vol * 127 * sin_seg))
+  24.
+      fout.close()
+  25.
+       
+  26.
+      # test the module ...
+  27.
+      if __name__ == '__main__':
+  28.
+      au_file(name='sound800.au', freq=800, dur=2000, vol=0.8)
+  29.
+       
+  30.
+      # if you have Windows, you can test the audio file
+  31.
+      # otherwise comment this code out
+  32.
+      import os
+  33.
+      os.startfile('sound800.au')

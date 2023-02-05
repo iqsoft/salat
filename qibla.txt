@@ -1,0 +1,17 @@
+More Accurate Method
+It is not advisable to determine Qibla using compass specially for Orienting Masajid. The following method which uses the sun is more reliable. It has been observed for centuries and reported in many books by Muslims around the world that two times a year the sun comes overhead above Ka'bah. This is observational fact for centuries, and is used to set the correct Qibla direction in places far from Makkah by Muslims for last so many centuries. Those two dates and times are:
+
+May 28 at 9:18 UT
+July 15 at 9:27 UT
+
+When you observe the sun at these times (after converting it to your local time), you will be facing the Ka'bah giving you Qibla direction, because if there were a very high minaret over Ka'bah reaching up to the sky, then you will see it just like you are seeing the sun. Now, let us take a few examples. If you are in Islamabad, Pakistan (+5 hours time difference from Greenwich), the local time to observe the sun would be 2:18 pm on May 28, and 2:27 pm on July 15.
+
+Similarly, if you are in Nova Scotia, Canada (-3 hours time difference from Greenwich), the local time to observe the sun would be 6:18 am on May 28, and 6:27 am on July 15.
+
+If you are at a location that you cannot see the sun on the above mentioned two dates, then you can locate Qibla from the sun when it comes overhead at a point diametrically opposite of Makkah on the globe and look for the following two dates and times:
+November 28 at 21:09 UT
+January 13 at 21:29 UT
+
+Face toward the shadow from the sun at these times (after converting it to local time) and you will be facing Ka'bah. If you can see the sun but cannot see the shadow, put your back towards the sun and your face will be towards Qibla.
+Most Accurate Method
+Qibla direction from the sun: Every day, at a certain time the Qibla can be determined from the sun, either by facing it or by facing the shadow from it, or else there is a time when Qibla would be 90 degrees left or right of the sun. This time can be calculated for everyday for any desired location. This is the most accurate method. Remember, the compass, cannot tell you the True North, because its needle points to Magnetic North, and there is no way to know exactly how many degrees it is away from True North. Estimated values of the difference between True North and Magnetic North can be used but they can have errors, because magnetic field is not only changing continuously, but also can be erratic due to other physical changes present inside the earth. Moreover, the presence of other magnetic fields or metallic objects can deflect compass needle pointing in the wrong direction.

@@ -1,0 +1,48 @@
+CityId,City,Region,Country,Latitude,Longitude,TimeZone,MSL,ID,isHanafi,TwilightAngle,isnorthernhemisphere
+41987,Kharagpur,West Bengal,India,22.333,87.333,+05.50,0.00,52,FALSE,18.00,TRUE
+41825,Kozhikode,Kerala,India,11.25,75.767,+05.50,0.00,65,FALSE,18.00,FALSE
+6461,Trivandrum,Kerala,India,8.483,76.917,+05.50,0.00,66,FALSE,18.00,TRUE
+41988,Kollam,Kerala,India,9.3,76.1,5.5,0.00,92,FALSE,18.00,TRUE
+42260,Vattamkulam,Kerala,India,10.9167,75.1667,5.5,0.00,93,FALSE,18.00,TRUE
+41987,Kharagpur,West Bengal,India,22.333,87.333,+05.50,0.00,94,FALSE,18.00,FALSE
+1221,Honolulu,Hawaii,United States,21.3084,-157.846,-10.00,0.00,95,FALSE,18.00,FALSE
+41987,Kharagpur,West Bengal,India,22.333,87.333,+05.50,0.00,96,FALSE,18.00,FALSE
+1180,alt Lake City,Utah,United States,40.7382,-111.881,-07.00,0.00,97,FALSE,18.00,FALSE
+41987,Kharagpur,West Bengal,India,22.333,87.333,+05.50,0.00,98,FALSE,18.00,FALSE
+4065,Vijayawada,Andhra Pradesh,India,16.517,80.617,+05.50,0.00,99,FALSE,18.00,FALSE
+41725,Vishakhapatnam,Andhra Pradesh,India,17.7,83.3,+05.50,0.00,100,FALSE,18.00,FALSE
+42215,Warangal,Andhra Pradesh,India,18,79.583,+05.50,0.00,101,FALSE,18.00,FALSE
+41751,Thrissur,Kerala,India,10.517,76.217,+05.50,0.00,102,FALSE,18.00,FALSE
+42261,Kollam,Kerala,India,8.8667,76.5833,5.5,0.00,103,FALSE,18.00,TRUE
+41987,Kharagpur,West Bengal,India,22.333,87.333,+05.50,0.00,104,FALSE,18.00,FALSE
+42260,Vattamkulam,Kerala,India,10.9167,75.1667,5.5,0.00,105,FALSE,18.00,TRUE
+41751,Thrissur,Kerala,India,10.517,76.217,+05.50,0.00,106,FALSE,18.00,FALSE
+42261,Kollam,Kerala,India,8.8667,76.5833,5.5,0.00,107,FALSE,18.00,TRUE
+42230,Mazar-e Sharif,Balkh,Afghanistan,36.7,67.1,+4.30,0.00,108,TRUE,18.00,TRUE
+42230,Kollam,Kerala,India,9.3,76.1,5.5,0.00,109,FALSE,18.00,TRUE
+42230,Kozhikode,Kerala,India,11.25,75.767,+05.50,0.00,111,FALSE,18.00,TRUE
+42230,Kollam,Kerala,India,8.8667,76.5833,5.5,0.00,112,FALSE,18.00,TRUE
+37415,Sextons Creek,Kentucky,United States,37.2928,-83.795,-05.00,0.00,114,FALSE,18.00,FALSE
+37415,Kollam,Kerala,India,8.8667,76.5833,5.5,0.00,115,FALSE,18.00,FALSE
+4672,Poznan,Wielkopolskie,Poland,52.417,16.967,+01.00,0.00,116,FALSE,18.00,FALSE
+4672,Kollam,Kerala,India,8.8667,76.5833,5.5,0.00,117,FALSE,18.00,FALSE
+6013,Geraldton,Western Australia,Australia,-28.767,114.6,+08.00,0.00,118,FALSE,18.00,FALSE
+42261,Kollam,Kerala,India,8.8667,76.5833,5.5,0.00,119,TRUE,18.00,TRUE
+3815,Granada,Andalucia,Spain,37.183,-3.6,+01.00,0.00,120,FALSE,18.00,FALSE
+6444,Kirkjubaejarklaustur,Vestur-Skaftafellssysla,Iceland,63.783,-18.067,+00.00,0.00,121,FALSE,18.00,FALSE
+6444,Kollam,Kerala,India,8.8667,76.5833,5.5,0.00,122,FALSE,18.00,FALSE
+42261,Kollam,Kerala,India,8.8667,76.5833,5.5,0.00,123,FALSE,18.00,TRUE
+11111111,Kilikollur,Kerala,India,8.9285,76.6389,5.5,0.00,124,FALSE,18.00,TRUE
+42261,Kilikollur,Kerala,India,8.9285,76.6389,5.5,0.00,125,FALSE,18.00,TRUE
+9962,Princeton,New Jersey,United States,40.3563,-74.6578,-05.00,0.00,126,FALSE,18.00,FALSE
+1225,Melbourne,Victoria,Australia,-37.817,144.967,+10.00,0.00,127,FALSE,18.00,FALSE
+1333,Yellowknife,Northwest Territories,Canada,62.45,-114.35,-07.00,0.00,128,FALSE,18.00,FALSE
+1333,Kilikollur,Kerala,India,8.9285,76.6389,5.5,0.00,129,FALSE,18.00,FALSE
+17390,Kuala Lumpur,Wilayah Persekutuan,Malaysia,3.167,101.7,+08.00,0.00,130,FALSE,18.00,FALSE
+42261,Kollam,Kerala,India,8.8667,76.5833,5.5,0.00,131,TRUE,18.00,TRUE
+42261,Kharagpur,West Bengal,India,22.333,87.333,+05.50,0.00,132,FALSE,18.00,TRUE
+42261,Kharagpur,West Bengal,India,22.333,87.333,+05.50,0.00,133,FALSE,18.00,TRUE
+42261,Vattamkulam,Kerala,India,10.9167,75.1667,5.5,0.00,134,FALSE,18.00,TRUE
+42261,Kilikollur,Kerala,India,8.9285,76.6389,5.5,0.00,135,FALSE,18.00,TRUE
+4662,Kilikollur,Kerala,India,8.9285,76.6389,5.5,0.00,136,FALSE,18.00,TRUE
+4662,Kilikollur,Kerala,India,8.9285,76.6389,5.5,0.00,137,FALSE,18.00,FALSE

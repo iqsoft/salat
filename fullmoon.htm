@@ -1,0 +1,259 @@
+<html><head><title>Moon Phase Calculator</title>
+<script language="Javascript">
+<!-- 
+
+function julday(mm, id, iyyy) {
+	if (iyyy == 0) {
+		alert("Julday: there is no year zero");
+		return 0;
+	} else {
+		if (iyyy < 0) { iyyy += 1; }
+		if (mm > 2) {
+			jy = iyyy;
+			jm = 1.0 * mm + 1;
+		} else {
+  			jy = iyyy - 1;
+  			jm = 1.0 * mm + 13;
+		}
+		j1 = 1.0 * Math.floor(365.25 *jy);
+		j2 = 1.0 * j1 + Math.floor(30.6001 * jm);
+		j3 = 1.0 * j2 + 1.0 * id;
+		j4 = 1.0 * j3 + 1720995;
+		if (id+31*(mm+12*iyyy) >= (15+31*(10+12*1582))) {
+			  ja = 1.0 * Math.floor(0.01 * jy);
+			jb = 1.0 * Math.floor(0.25 * ja);
+			  j5 = 1.0 * j4 + 2;
+			j6 = 1.0 * j5 - ja;
+			jul = 1.0 * j6 + jb;
+		} else {
+			jul = j4;
+		}
+		return jul;
+	}
+}
+var month, day, year;
+function caldat(julian) {
+	julian = 0 + julian;
+	if (julian >= 2299161) {
+		jalpha = Math.floor((1.0 * (julian - 1867216)-0.25)/36524.25);
+		ja = 1 * julian + 1 + jalpha - Math.floor(0.25 * jalpha);
+	} else {
+		ja = julian;
+	}
+	jb = ja + 1524;
+	jc = Math.floor(6680.0 + ((jb - 2439870)-122.1)/365.25);
+	jd = 365 * jc + Math.floor(0.25 * jc);
+	je = Math.floor((jb - jd)/ 30.6001);
+	day = jb - jd - Math.floor(30.6001 * je);
+	month = je - 1;
+	if (month > 12) { month -= 12; }
+	year = jc - 4715;
+	if (month > 2) { --year; }
+	if (year <= 0) { --year; }
+}
+var jd, frac;
+function flmoon(n, nph) {
+	RAD = 3.14159265/180.0;
+	c = n + nph / 4.0;
+	t = c / 1236.85;
+	t2 = t * t;
+	as = 359.2242 + 29.105356 * c;
+	am = 306.0253 + 385.816918 * c + 0.010730 * t2;
+	jd = 2415020 + 28 * n + 7 * nph;
+	xtra = 0.75933 + 1.53058868 * c + ((1.178e-4) - (1.55e-7) * t) * t2;
+	if (nph == 0 || nph == 2)
+		xtra += (0.1734 - 3.93e-4 * t) * Math.sin(RAD * as) - 0.4068 * Math.sin(RAD * am);
+	else if (nph == 1 || nph == 3)
+		xtra += (0.1721 - 4.0e-4 * t) * Math.sin(RAD * as) - 0.6280 * Math.sin(RAD * am);
+	else
+		alert("nph is unknown in flmoon");
+	i = (xtra > 0.0 ? Math.floor(xtra) :  Math.ceil(xtra - 1.0));
+	jd += i;
+	frac = xtra - i;
+}
+
+function doit() {
+	thisyear=document.forms[0].year.value;
+	thismonth=document.forms[0].month.value;
+	thisday=document.forms[0].day.value;
+	TZ=Math.round(document.forms[0].tz.value * 4) / 4;
+	document.forms[0].tz.value = TZ;
+	if (document.forms[0].sign.selectedIndex > 0) {
+		TZ = -TZ;
+	}
+	timzon = TZ / 24.0;
+	n = Math.floor(12.37 * (thisyear -1900 + ((1.0 * thismonth - 0.5)/12.0)));
+	nph = 2;
+	j1 = julday(thismonth,thisday,thisyear);
+	flmoon(n,nph); 
+	n += Math.floor(1.0 * (j1 - jd) / 28.0); cycle = 1;
+	for (var iii = 1; iii <= 12; iii++) {
+		flmoon(n, nph);
+		frac = 24.0 * (frac + timzon);
+		if (frac < 0) {
+			--jd;
+			frac += 24.0;
+		}
+		if (frac > 12.0) {
+			++jd;
+			frac -= 12.0;
+		} else
+			frac += 12.0;
+		i1 = Math.floor(frac);
+		secs = 3600.0 * (frac - i1);
+		i2 = Math.floor(secs / 60.0);
+		i3 = Math.floor(secs - 60 * i2 + 0.5);
+		caldat(jd);
+		theDate = new Date(year,month-1,day,i1,i2,i3);
+		if (nph == 2) { 
+			document.forms[cycle].field1.value = theDate.toString(); 
+		} else if (nph == 3) {
+			document.forms[cycle].field2.value = theDate.toString(); 
+		} else if (nph == 0) {
+			document.forms[cycle].field3.value = theDate.toString(); 
+		} else if (nph == 1) {
+			document.forms[cycle].field4.value = theDate.toString(); 
+		}
+		if (nph == 3) {
+			nph = 0;
+			++n;
+		} else
+			++nph;
+		if (nph == 2) {
+			++cycle;
+		}
+	}
+}
+today = new Date(); thisyear = today.getYear(); 
+thismonth = today.getMonth(); thisday = today.getDate();
+if (thisyear < 50) { thisyear += 2000; }
+if (thisyear < 100) { thisyear += 1900; }
+thismonth += 1;
+TZ = Math.round(today.getTimezoneOffset() / 15) / 4;
+TZ = -TZ; 
+document.write("<center><h2>Moon Phase Calculator</h2>" +
+	"<h4>Dates and <a href=\"#caveat\">approximate times</a> of the moon's phases</h4>" +
+	"<form name=\"form1\" >" +
+	"<b><a href = \"#start\">Starting date</a>:</b> Year:<input type=\"text\" name = \"year\" size=4 value=" + thisyear + ">" +
+	" Month:<input type=\"text\" name = \"month\" size=2 value=" + thismonth + ">" +
+	" Day:<input type=\"text\" name = \"day\" size=2 value=" + thisday + ">" +
+	"<br><b><a href=\"#tz\">Local timezone offset</a>:</b> GMT <select name=\"sign\">" +
+	"<option " + (TZ >= 0 ? "selected" : "") + ">Plus" +
+	"<option " + (TZ <  0 ? "selected" : "") + ">Minus" +
+	"</select> <input type=\"text\" name = \"tz\" size=4 value=" + Math.abs(TZ) + ">" +
+	"hour(s)<br><br><input type=\"button\" value=\"Recalculate\" onClick=\"doit()\">" +
+	"</form></center>");
+<!-- -->
+</script>
+<style>
+body	{font-family: verdana; font-size: 10pt;}
+</style>
+</head>
+<body onLoad="doit()">
+<center>
+<script type="text/javascript"><!--
+google_ad_client = "pub-4572730101251088";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+google_ad_channel ="";
+google_color_border = "336699";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_url = "008000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<p><form name="form2">
+<table cellpadding=1 border=0>
+<tr><td align=center><img src="fullmoon.gif"></td>
+<td><input type="text" name="field1" size=30></td></tr>
+<tr><td align=center><img src="wanemoon.gif"></td>
+<td><input type="text" name="field2" size=30></td></tr>
+<tr><td align=center><img src="newmoon.gif"></td>
+<td><input type="text" name="field3" size=30></td></tr>
+<tr><td align=center><img src="waxmoon.gif"></td>
+<td><input type="text" name="field4" size=30></td></tr>
+</table></form>
+<form name="form3">
+<table cellpadding=1 border=0>
+<tr><td align=center><img src="fullmoon.gif"></td>
+<td><input type="text" name="field1" size=30></td></tr>
+<tr><td align=center><img src="wanemoon.gif"></td>
+<td><input type="text" name="field2" size=30></td></tr>
+<tr><td align=center><img src="newmoon.gif"></td>
+<td><input type="text" name="field3" size=30></td></tr>
+<tr><td align=center><img src="waxmoon.gif"></td>
+<td><input type="text" name="field4" size=30></td></tr>
+</table></form>
+<form name="form4">
+<table cellpadding=1 border=0>
+<tr><td align=center><img src="fullmoon.gif"></td>
+<td><input type="text" name="field1" size=30></td></tr>
+<tr><td align=center><img src="wanemoon.gif"></td>
+<td><input type="text" name="field2" size=30></td></tr>
+<tr><td align=center><img src="newmoon.gif"></td>
+<td><input type="text" name="field3" size=30></td></tr>
+<tr><td align=center><img src="waxmoon.gif"></td>
+<td><input type="text" name="field4" size=30></td></tr>
+</table></form>
+</center><hr>
+<h3><a name="start">Setting the starting date</h3>
+The date here (initialized to your computer's idea of today's date)
+is used to find the closest full moon, from which three complete
+lunar cycles are then calculated and displayed. Unless today is a
+full moon, then the table will start at some other date than the one
+set at the top.<p>
+You can change the date shown and get phases of the moon for any
+date you choose. However no checks are currently made as to the
+validity of whatever you enter, so make sure you don't enter silly
+dates, or you will get surprising answers. The Julian date mechanism
+is quite robust, and will correctly extend both far into the future
+and way back into antiquity, but the moon algorithm may not be valid
+for more than a few hundred years ahead or behind the present.<br>
+Note that there is no such thing as the year zero (the Romans hadn't
+grasped the concept of zero) so you will get an error if you try to
+enter such a year. The sequence goes ..., 2BC, 1BC, 1AD, 2AD, ...,
+with no 0AD in the middle, but the program will correct for this by
+adding one to negative years. Because of changes to the calendar when
+things got out of step a few hundred years ago, some days don't exist
+at all, so you may see some surprising gaps between moon phases if
+you explore these periods.
+<h3><a name="tz">Time zone corrections</h3>
+The code does all its calculations in GMT, but displays the
+answers corrected for your local timezone. It gets this from your
+computer, via your Web browser, so it may not be correct. If you
+don't agree with the values shown at the top of the page, you can
+correct them and use the Recalculate button to put the new offset
+into effect. Better still, set your computer's date and time
+correctly, and tell it your local timezone. MS-Windows and MacOS
+have Control Panels to do this, but mainframe or workstation users
+will have to ask their System Administrator.<p>
+If you are West of the Greenwich Meridian, then your offset will
+be a negative value (it is earlier in the day in your timezone), 
+whereas if you are East of it then your offset will be positive
+(it is later in the day in your timezone). Daylight savings time
+should be taken into account if it is in effect, by adding one or two
+hours to the offset.<p>
+The correct value is the one which, when added to GMT, gives your
+local time. Eg, EST would be Minus 5, BST would be Plus 1, for Nepal
+it would be Plus 5.75. All fractions are rounded to the nearest 15
+minutes.
+<h3><a name="caveat">Caveats</h3>
+Although the times shown may appear accurate to the last second, this
+is almost certainly not true and you should consult a lunar ephemeris
+if you need accurate timings. The values given here are only approximate
+and are meant to be a rough guide, not for launching moonshots.<p>
+The inaccuracies are partly inherent in the method used, partly due
+to rounding errors, and partly the result of Javascript's occasional
+insistence that two plus two equals twenty-two rather than four. I
+have tracked down and (I think) squashed all occurrences of the latter
+in the code which works out the date, but so far haven't finished
+checking the code which calculates the time and applies the timezone
+corrections.<p>&nbsp;</p>
+<A HREF="javascript:history.back()">Go back</A>
+<p>&nbsp;</p>
+</body></html>

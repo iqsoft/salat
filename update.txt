@@ -1,0 +1,19 @@
+Update 0.1.43 date 15-April-2008
+Added Qibla direction
+Working Settings form
+**********************
+
+
+Salat calculates the prayer times for your location. If your city is not in the database (unlikely, since it has 36,000 cities in it), just feed it the latitude and longitude of your place (Get that from Google Earth) and it will calculate the times of Namaz. 
+
+Options for calculating according to Hanafi and Shafe'ee schools of Jurisprudence. 
+
+Other options include Height of your location (which changes the salat timing...)
+
+Now don't miss a prayer even if you are on the tip of Everest :)
+
+You can also customize your Fajr and Isha timings with a customized twilight angle...depending on the traditions at your place.
+
+Prepare customized printouts for the entire year...
+
+All this with a Jazzy interface and Adans from Medina, Mecca and more...

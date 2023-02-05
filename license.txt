@@ -1,0 +1,26 @@
+Salat (VB6 version) Licensing and Distribution Agreement
+
+25 August 2020
+Copyright (C) 2020-2026 Mohamed Iqbal Pallipurath
+Please direct licensing questions to MohamedIqbalP@gmail.com
+
+   
+The Salat Software is being provided as freeware, restricted only by the conditions set forth below.
+
+
+--------------------------------------------------------------------------------
+
+Developers
+The Salat Software is being provided as freeware to developers who are solely responsible for determining the suitability of the control for their use. The Salat Software and related files are the property of Mohamed Iqbal Pallipurath, the developer and he retains the exclusive property rights to the control. This agreement grants application developers conditional permission for it's use. 
+
+Application developers are free to distribute the Salat Software with their application. This also extends to include any demo code that may have been modified in order to achieve the functionality desired in their application. By using ezVidC60.ocx, the developer acknowledges these conditions covering both the use and distribution of ezVidC60.ocx, and their use shall constitute acceptance of this agreement.
+
+Under no circumstance does the control author or his employer assume any responsibility for the reliability of the control, nor responsibility in the unlikely event of any possible loss of data that may be incurred from such use.
+   
+
+Distributors
+The Iqsoft Software Consultants website (http://www.Iqsoft.co.in Software Consultants) and Mohamed Iqbal Pallipurath, the developer are the sole legal distributors of the Salat Software. 
+
+This software or portion of the control package (ocx, dll, help file, demo code or zip) may be posted or distributed via any web site, online service or BBS, or included on any CD or with any other software media without explicit written permission from Mohamed Iqbal Pallipurath unless the control is a required part of their application being distributed. In addition, this control may not be distributed via any fee-based service or media. Contact information for Mohamed Iqbal Pallipurath, the developer, can be found on the Iqsoft Software Consultants Visual Basic website.
+   
+--------------------------------------------------------------------------------

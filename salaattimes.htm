@@ -1,0 +1,887 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title>North Wales Islamic Societies - The Determination of Salaat Times</title>
+
+
+
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+  #g_title p, #g_footer p, #g_description p {
+    margin: 0;
+  }
+  /*
+
+  	-- -- -- -- -- -- --
+  	Browser Fixes
+  	-- -- -- -- -- -- --
+  	
+  	This file uses CSS filtering methods to fix various
+  	layout bugs.
+
+  	Each of the following three imported files is a 
+  	separate, browser-specific CSS file that keeps all 
+  	hacks out of the main style sheet.
+  	
+  	Over time, as supporting these browsers no longer
+  	remains a priority, cleaning up the hacks is as
+  	easy as deleting the @import statement below, or
+  	simply no longer linking this file from the HTML.
+  	
+  */
+
+  /* 
+    fix ie6 "peekaboo bug" using the "holly hack". 
+    Note, this style only gets applied to ie6
+  */
+  * html .wrapper {
+    height: 0.1%;
+  }
+
+  /* 
+   * IE5 mac - overrides the IE/Win hack 
+   */
+
+  /*\*//*/
+
+  * html #threecolumn div {
+  	height: auto;
+  }
+
+  /**/
+
+
+  /* 
+   * IE5/Win-specific CSS -ensures #container wraps all content on window resize
+   */
+
+  @media tty {
+   i{content:"\";/*" "*/}} * html #container { height: 1%; } /*";}
+  }/* */
+  /* Styling for editable elements. Eventually, this will be part of the style. */
+  .editable {
+    border: 1px dashed blue;
+  }
+  
+  #footer {
+    clear: both;
+  }
+  
+  /* Extra divs hidden by default. The custom CSS can override this though */
+  #extraDiv1, #extraDiv2, #extraDiv3, #extraDiv4, #extraDiv5, #extraDiv6 {
+    display: none;
+  }
+  
+  a img,:link img,:visited img {border: none;}
+
+
+  body {
+    text-align: center;
+  }
+  #container {
+    width: 718px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  /** BEGIN CUSTOM SKIN **/
+  /*
+
+  	-- -- -- -- -- -- --
+  	Base CSS
+  	-- -- -- -- -- -- --
+  	
+  	This file simply removes default styling on most HTML elements in 
+  	order to reduce the need to later override them.
+  	
+  */
+
+  h1,h2,h3,h4,h5,h6,pre,code,p {font-size: 1em;}
+  dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+  a img,:link img,:visited img {border: none;}
+  address {font-style: normal;}/*
+
+  	-- -- -- -- -- -- --
+  	Type Scheme: Deco
+  	-- -- -- -- -- -- --
+  	
+  */
+
+  body {
+  	font: 76% Verdana, sans-serif;
+  }	
+
+  h1, h2, h3, h4, h5, h6, p.description {
+  	font-family: "Trebuchet MS", Trebuchet, sans-serif;
+  }
+  h1 {
+  	font-size: 3em;
+  	font-weight: bold;
+  	letter-spacing: 2px;
+  }
+  h2 {
+  	font-size: 2em;
+  	font-weight: normal;
+  }
+  h3 {
+  	font-size: 1.5em;
+  }
+  h4 {
+  	font-size: 1.2em;
+  	letter-spacing: 0.2em;
+  }
+  h5 {
+  	font-size: 1.2em;
+  }
+  h6 {
+  	font-size: 1em;
+  	font-weight: bold;
+  }
+
+  p, td {
+  	line-height: 1.8em;
+  }
+  code, kbd {
+  	font-size: 1.25em;
+  }/*
+
+  	-- -- -- -- -- -- --
+  	STYLE: Micro
+  	-- -- -- -- -- -- --
+
+  */
+
+
+
+
+  /* ie6win */
+
+  /* IE/Win fixes for various layouts
+  ----------------------------------------------- */
+  * html #onecolumn #header {
+  	margin-right: -3px;
+  }
+  * html #onecolumn #header,
+  * html #twocolumn-left #header, * html #twocolumn-right #header,
+  * html #twocolumn-liquid-left #header, * html #twocolumn-liquid-right #header {
+  	padding-bottom: 1px;
+  }
+  * html #twocolumn-left #main-content, * html #twocolumn-right #main-content {
+  	width: 459px;
+  }
+  * html #threecolumn #main-content {
+  	width: 409px;
+  }
+
+  /* ie5mac */
+
+  /*\*//*/
+  /* Undoing IE/Win fixes
+  ----------------------------------------------- */
+  * html #onecolumn #header {
+  	margin-right: 0;
+  }
+  * html #twocolumn-left #header, * html #twocolumn-right #header,
+  * html #twocolumn-liquid-left #header, * html #twocolumn-liquid-right #header {
+  	padding-bottom: 0;
+  }
+  * html #twocolumn-left #main-content, * html #twocolumn-right #main-content {
+  	width: 479px;
+  }
+  * html #threecolumn #main-content {
+  	width: 429px;
+  }
+  /**/
+
+  @media tty {
+   i{content:"\";/*" "*/}} td { font-size: 0.8em; } /*";}
+  }/* */
+
+
+
+  /* Basic HTML style
+  ----------------------------------------------- */
+  body {
+  	font: 76% "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+  	color: #000;
+  	background: #fff;
+  	margin: 0;
+  	padding: 0;
+  }
+  blockquote {
+  	margin: 1em 2em;
+  	font-style: italic;
+  }
+  caption {
+  	font-weight: bold;
+  	color: #444;
+  	background: #ccc;
+  	border-bottom: 0;
+  	padding: 0.3em 1em;
+  }
+  dd {
+  	margin: 1em 2em;
+  }
+  dl {
+  	margin: 2em 0;
+  }
+  dt {
+  	font-weight: bold;
+  }
+  hr {
+  	margin: 2em 0;
+  	color: #C7C7C7;
+  	background: #C7C7C7;
+  	border-color: #C7C7C7;
+  	border-style: none;
+  	height: 1px;
+  }
+  li {
+  	margin: 1em 0;
+  }
+  table {
+  	border: solid 1px #ccc;
+  }
+  td {
+  	vertical-align: top;
+  	padding: 0.5em;
+  }
+  th {
+  	text-align: left;
+  	color: #fff;
+  	background: #777;
+  	padding: 0.5em;
+  }
+  ol, ul {
+  	margin: 2em 0;
+  	padding-left: 1em;
+  }
+
+
+
+  /* Nested HTML elements, and basic classes
+  ----------------------------------------------- */
+  ol li {
+  	list-style-type: decimal;
+  	margin-left: 2em;
+  }
+  ul li {
+  	margin-left: 2em;
+  	list-style-type: square;
+  }
+  td p {
+  	margin-top: 0;
+  }
+
+
+
+  /* Set the stage with main layout tweaks
+  ----------------------------------------------- */
+  #container {
+  	border: solid 7px #999;
+  	border-left: 0;
+  	border-right: 0;
+  	padding-top: 1px;
+  }
+  #header {
+  	color: #04172D;
+  	border-top: solid 3px #777;
+  	padding: 0;
+  	margin: 0 0 1.5em 0;
+  }
+  #main-content .wrapper {
+  	margin: 0;
+  }
+  .description {
+  	font: normal 1em "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+  	color: #444;
+  	background: #C7C7C7;
+  	padding: 3px 25px 2.2em 25px;
+  	margin: 0;
+  	line-height: 1;
+  }
+  #footer {
+  	clear: both;
+  	color: #999;
+  	padding: 0 1em 1em 1em;
+  	border-bottom: solid 3px #777;
+  	margin-bottom: 1px;
+  }
+
+
+  /* Content area offset
+  ----------------------------------------------- */
+  #main-content .wrapper {
+  	padding: 0 25px;
+  }
+
+  #main-content td p {
+  	margin: 0 0 1em 0;
+  }
+
+
+
+  /* Custom font definitions
+  ----------------------------------------------- */
+  p {
+  	margin: 1em 0;
+  	line-height: 1.5;
+  }
+  h1,h2,h3,h4,h5,h6 {
+  	font-family: "Trebuchet MS", arial, sans-serif;
+  }
+  h1 {
+  	color: #B2B2B2;
+  	font-size: 2.4em;
+  	letter-spacing: 0.2em;
+  	font-weight: normal;
+  	padding: 1em 25px 0 25px;
+  }
+  h2 {
+  	margin: 0 0 0.5em 0;
+  	color: #777;
+  	font-size: 1.4em;
+  	font-weight: normal;
+  	border-bottom: double 3px #C7C7C7;
+  	padding: 0 0 0.4em 0;
+  }
+  h3 {
+  	font-size: 1.2em;
+  	background: #eee;
+  	border: dotted 1px #C7C7C7;
+  	padding: 0.2em;
+  }
+  h4 {
+  	font-size: 1.2em;
+  	padding: 0 0 0.2em 0;
+  	margin: 0.6em 0 0 0.4em;
+  	color: #777;
+  }
+  h5 {
+  	border-bottom: dotted 1px #C7C7C7;
+  }
+  h6 {
+  	color: #777;
+  	border-left: solid 1.2em #777;
+  	padding-left: 0.6em;
+  }
+
+  a:link {
+  	color: #9db2df;
+  }
+  a:hover {
+    	text-decoration: none;
+  	border-bottom: 1px dotted #bb242d;
+  	background-color: #e0e0e0;
+   }
+
+
+  /* Sidebar
+  ----------------------------------------------- */
+  #sidebar h3, #sidebar-alternate h3 {
+  	margin: 0;
+  	color: #777;
+  	background: none;
+  	font-size: 1.4em;
+  	font-weight: normal;
+  	border: none;
+  	padding: 0;
+  }
+
+  #sidebar blockquote, #sidebar blockquote p,
+  #sidebar-alternate blockquote, #sidebar-alternate blockquote p {
+  	margin-left: 0;
+  	margin-right: 0;
+  }
+  #sidebar blockquote {
+  	margin: 1em 0;
+  	padding: 0;
+  }
+  #adsense {
+  	text-align: center;
+  }
+
+
+
+  .editable {
+  	border: dashed 1px #c33;
+  }
+
+
+
+
+  /* Tweaks for Two-column Right layout
+  ----------------------------------------------- */
+  #twocolumn-right #sidebar .wrapper {
+  	margin: 0 10px;
+  }
+
+
+
+  /* Tweaks for Two-column Left layout
+  ----------------------------------------------- */
+  #twocolumn-left #sidebar .wrapper {
+  	margin: 0 10px;
+  }
+
+
+  /* Tweaks for Three-column layout
+  ----------------------------------------------- */
+  #threecolumn #sidebar .wrapper {
+  	margin: 0 10px;
+  }
+  #threecolumn #sidebar-alternate .wrapper {
+  	margin: 0 10px;
+  }
+  /*
+
+  	-- -- -- -- -- -- --
+  	COLOR SCHEME: Sport
+  	-- -- -- -- -- -- --
+
+  */
+
+
+  /* Basic HTML style
+  ----------------------------------------------- */
+  body {
+  	color: #000;
+  	background: #fff;
+  }
+  caption {
+  	color: #444;
+  	background: #ccc;
+  }
+  hr {
+  	color: #C7C7C7;
+  	background: #C7C7C7;
+  	border-color: #C7C7C7;
+  }
+  table {
+  	border-color: #ccc;
+  }
+  th {
+  	color: #fff;
+  	background: #1A4292;
+  }
+
+
+
+  /* Set the stage with main layout tweaks
+  ----------------------------------------------- */
+  #container {
+  	border-color: #BB242D;
+  }
+  #header {
+  	color: #04172D;
+  	border-top-color: #A11B23;
+  }
+  .description {
+  	color: #444;
+  	background: #C7C7C7;
+  }
+  #footer {
+  	color: #999;
+  	border-bottom-color: #A11B23;
+  }
+
+
+
+  /* Custom font definitions
+  ----------------------------------------------- */
+  h1 {
+  	color: #B2B2B2;
+  }
+  h2 {
+  	color: #1A4292;
+  	border-bottom-color: #C7C7C7;
+  }
+  h3 {
+  	background: #eee;
+  	border-color: #C7C7C7;
+  }
+  h4 {
+  	border-bottom-color: #C7C7C7;
+  	color: #1A4292;
+  }
+  h5 {
+  	border-bottom-color: #C7C7C7;
+  }
+  h6 {
+  	color: #1A4292;
+  	border-left-color: #1A4292;
+  }
+
+
+
+
+
+  /* Sidebar
+  ----------------------------------------------- */
+  #sidebar h3, #sidebar-alternate h3 {
+  	color: #1A4292;
+  	background: none;
+  }
+
+  /** END CUSTOM SKIN **/
+  </style><!-- Hack to avoid flash of unstyled content in IE -->
+
+  
+  <script> </script></head><body id="onecolumn">
+  <div id="container">
+    <div class="wrapper">
+      <div id="header">
+        <div class="wrapper">
+          <h1 id="page-title"><div id="g_title"><h2 style="text-align: center;"><font size="6">The Determination <br>of Salaat Times</font></h2></div></h1>
+          <div style="clear: both;"></div>
+          <p class="description"></p><div id="g_description"><p style="text-align: right;"><strong><font size="2">by Dr. Monzur Ahmed</font></strong></p>
+<p style="text-align: right;"><font size="1">minor updates by Dr. Ayad Abdulmawla&nbsp;<br></font></p></div>
+          <div style="clear: both;"></div>
+        </div>
+      </div>
+      <!-- /editable --><!-- /wrapper --><!-- /header -->
+      <div id="main-content">
+        
+        <div class="wrapper">
+          <div class="content-item"><div id="g_body"><h2>&nbsp;</h2>
+<h2>1. Introduction</h2>
+<p>The five Islamic prayers are named Fajr, Zuhr, Asr, Maghrib and
+Isha. The timing of these five prayers varies from place to place and
+from day to day. It is obligatory for Muslims to perform these prayers
+at the correct time. </p>
+<p>The prayer times for any given location on earth may be determined
+mathematically if the latitude and longitude of the location are known.
+However, the theoretical determination of prayer times is a lengthy
+process. Much of this tedium may be alleviated by using computer
+programs. </p>
+<p></p><a href="" name="2. Definition"></a>
+<h2>&nbsp;</h2>
+<h2>2. Definition of prayer times</h2>
+<p></p>
+<ul>
+<li>FAJR starts with the dawn or morning twilight. Fajr ends just before sunrise. </li></ul>
+<p></p>
+<ul>
+<li>ZUHR begins after midday when the trailing limb of the sun has
+passed the meridian. For convenience, many published prayer timetables
+add five minutes to mid-day (zawal) to obtain the start of Zuhr. Zuhr
+ends at the start of Asr time. </li></ul>
+<p></p>
+<ul>
+<li>The timing of ASR depends on the length of the shadow cast by an
+object. According to the Shafi school of jurisprudence, Asr begins when
+the length of the shadow of an object exceeds the length of the object.
+According to the Hanafi school of jurisprudence, Asr begins when the
+length of the shadow exceeds TWICE the length of the object. In both
+cases, the minimum length of shadow (which occurs when the sun passes
+the meridian) is subtracted from the length of the shadow before
+comparing it with the length of the object. </li></ul>
+<p></p>
+<ul>
+<li>MAGHRIB begins at sunset and ends at the start of isha. </li></ul>
+<p></p>
+<ul>
+<li>ISHA starts after dusk when the evening twilight disappears. </li></ul>
+<center><img tabindex="0" src="salaattimes_files/solarcy.gif"></center>
+<p></p>
+<table colspec="L20 L20 L20" border="1" cellpadding="3" cellspacing="1">
+<caption align="top">
+<h3>Salat Times</h3></caption>
+<tbody>
+<tr>
+<th>&nbsp; </th>
+<th>Start</th>
+<th>End</th></tr>
+<tr>
+<th>Fajr</th>
+<td>When whitishness begins to appear on the horizon (dawn)</td>
+<td>At beginning of sunrise</td></tr>
+<tr>
+<th>Zuhr</th>
+<td>After sun's trailing limb crosses meridian</td>
+<td>Start of Asr</td></tr>
+<tr>
+<th>Asr</th>
+<td>When length of shadow =2x length of object + noon shadow (Hanafi) or <br>When length of shadow = length of object + noon shadow (Shafi)</td>
+<td>Before sunset</td></tr>
+<tr>
+<th>Maghrib</th>
+<td>Sunset</td>
+<td>Reddishness in the sky</td></tr>
+<tr>
+<th>Isha</th>
+<td>After reddishness in sky (dusk) ends</td>
+<td>Midnight (afzal), next fajr (makruh)</td></tr></tbody></table>
+<center>&nbsp;</center>
+<p>&nbsp;&nbsp;</p>
+<p><a href="" name="3.Twilight"></a></p>
+<h2>&nbsp;</h2>
+<h2>3.&nbsp;What is twilight?</h2>
+<p>If the earth did not have an atmosphere, the sky would become dark
+immediately after sunset. The earth's atmosphere causes scattering of
+sunlight so that light reaches the observer <strong>before</strong> sunrise and <strong>after</strong>
+sunset. This scattered light is called twilight. After sunset, as the
+depression of the sun increases the sky gets darker and darker until no
+scattered light reaches the observer. Conversely, in the morning light
+starts to appear in the sky even before sunrise. The morning twilight
+is called dawn whilst the evening twilight is known as dusk. </p>
+<p></p>
+<center><img tabindex="0" src="salaattimes_files/depr.gif"></center>
+<p>In astronomy the twilight period is divided into civil, nautical and
+astronomical twilight corresponding to solar depressions of 6, 12 and
+18 degrees respectively. </p>
+<p></p>
+<center><img tabindex="0" src="salaattimes_files/twilgrph.gif"></center>
+<p></p>
+<ul>
+<li>Civil twilight - roughly equivalent to lighting up time. The
+brightest stars are visible and at sea the horizon is clearly visible. </li></ul>
+<ul>
+<li>Nautical twilight - the horizon at sea ceases to be clearly visible
+and it is impossible to determine altitudes with reference to the
+horizon. </li></ul>
+<ul>
+<li>Astronomical twilight- when it is truly dark and no perceptible twilight remains. </li></ul>
+<p></p><a href="" name="4. Twilight and calc"></a>
+<h2>&nbsp;</h2>
+<h2>4. Twilight and calculation of fajr and isha</h2>
+<p>Fajr starts with the morning twilight (dawn) whilst isha starts at
+the end of the evening twilight (dusk). There is some debate as to
+which twilight angle should be used in the calculation of fajr/isha.
+For a discussion on the subject, I refer you to Dr. Ilyas' book:
+Astronomy of Islamic Times for the Twenty- first Century. Here is a
+brief extract from chapter five of Dr. Ilyas' book (in italics): </p>
+<p><em>" In modern times, astronomical twilight (18 degrees) has come
+to be widely used for the determination of isha and fajr times. As the
+average intensity curve of evening twilight indicates, the flux
+decreases to a minimum level, and thus it would seem appropriate that
+even for Islamic purposes, this should indicate a reasonable starting
+value for the end of 'astro-lslamic twilight' (AIT). Indeed, 18 degrees
+depression was a commonly used value for fajr and isha in the medieval
+period, when it must have been based on careful observations.
+Nevertheless, slight variations from this value- between 16 degrees and
+20 degrees- were also used during the medieval period. According to
+King, 20 degrees and 16 degrees were the parameters used by Ibn Yunus
+for morning and evening AIT respectively, whereas 19 degrees and 17
+degrees were the parameters used by various Egyptian astronomers. Nasr
+also refers to 19 degrees being used in the Islamic world for the fajr
+and isha times. King has confirmed that although Muslim astronomers
+widely used 18 degrees/l8 degrees symmetrical values or a slight
+variation to 19 degrees/17 degrees (morning/evening)-and in a few
+(earlier) cases even 20 degrees/16 degrees values were adopted-no
+record has been found of the use of a value as small as 15 degrees.
+This is of specific interest to us because a few years ago, values of
+15 degrees/15 degrees for both AlTs were proposed by Bagvi on the
+authority of Maulana Rashid Ahmad Ludianvi of Karachi, who is reported
+to have made some observations personally. Indeed, I myself followed
+Bagvi in preparing the first South Australian Islamic Time Table,
+although I did consider the need to examine the matter very carefully
+and introduced a distinct term for it. Subsequently, this 15 degrees
+proposition has come under criticism and is apparently not proved by
+others' observations made in recent years in that particular area
+(Karachi). Concern on this matter is obviously understandable, because
+an erroneous delay in the beginning of fajr would have serious
+implications for the beginning of the Fast. One of the useful studies
+arguing against this 15 degrees depression for AIT is that of Latiff,
+who claims to have conducted some observational work. Unfortunately,
+Latiff has argued for a fixed 18 degrees/18 degrees case for all over
+the globe-no less and no more. This, it seems, may not be the true
+situation either as there seems to be some room for geographical
+variability and perhaps 18 degrees serves as a good upper limit only.
+The value for morning AIT has widely been used as 18 degrees, although
+a practice of using 20 degrees prevails in Egypt and Indonesia/Malaysia
+(under Egyptian influence, apparently owing to the concerned persons
+having been trained there). Possibly, 20 degrees is taken as a
+safeguard because of the sanctification of the Fast. On the other hand,
+the use of smaller values than 18 degrees for India and Yemen has been
+reported to me in personal communications by Abdul Hafiz Maniar of
+Surat, India, and Dr. M.M. Qurashi of Islamabad, Pakistan,
+respectively. However, as we have noted elsewhere, in general, at 18
+degrees depression, no detectable trace of twilight flux will be found,
+meaning that 18 degrees represents an upper limit. "</em></p>
+<p>Generally, using smaller twilight angles will produce later fajr times and earlier isha times. </p>
+<p>eg for<strong> London</strong> (51:32N, 00:06W, Time zone 0 ),<br>On 1st January 1996: </p><pre>			Fajr		Isha<br>18 degrees		6:02		18:04<br>15 degrees		6:22		17:43<br></pre>
+<p>The two graphs below show the change in the timing of the prayer
+times during the year is shown for London below: (F= Fajr, Z=Zuhr,
+A2=Hanafi Asr, M=Maghrib, I=Isha). </p>
+<p>In the first graph (below), 15 degrees has been used for calculation of both Fajr and Isha. </p>
+<p></p>
+<center><img tabindex="0" src="salaattimes_files/twil15.gif"></center>
+<p></p>
+<center>
+<h5>Diagram produced by Prayer Time Calculator</h5><br></center>In the
+second graph (below), 18 degrees has been used for calculation of Fajr
+and Isha. Note that in the second example, Fajr starts earlier and Isha
+starts later. <p></p>
+<center><img tabindex="0" src="salaattimes_files/twil18.gif"></center>
+<p></p>
+<center>
+<h5>Diagram produced by Prayer Time Calculator</h5></center>
+<hr>
+
+<p><a href="" name="5. Conventions"></a></p>
+<h2>&nbsp;</h2>
+<h2>5. Conventions currently in use</h2>Several conventions for the
+calculation of Fajr and Isha are already in use in various countries.
+Fajr and Isha times are usually calculated using fixed twilight angles
+as discussed above but some countries also use a method involving
+adding/subtracting a fixed interval of time to sunset/sunrise
+respectively . Using the latter method, a time interval is subtracted
+from sunrise to obtain Fajr whilst the interval is added to sunset to
+obtain Isha. The methods used by some Islamic organisations are are
+summarised in the following table: <p></p>
+<table colspec="L20 L20 L20 L20 L20" border="1">
+<tbody>
+<tr>
+<th>Organisation</th>
+<th>Fajr - twilight angle</th>
+<th>Isha - twilight angle</th>
+<th>Region</th>
+<th><br></th></tr>
+<tr>
+<td>University of Islamic Sciences, Karachi</td>
+<td>18</td>
+<td>18</td>
+<td>Pakistan, Bangladesh, India, Afganistan, parts of Europe</td>
+<td><br></td></tr>
+<tr>
+<td>Islamic Society of North America (ISNA)</td>
+<td>15</td>
+<td>15</td>
+<td>Parts of USA &amp; Canada, parts of UK</td>
+<td><br></td></tr>
+<tr>
+<td>World Islamic League</td>
+<td>18</td>
+<td>17</td>
+<td>Europe, Far East, parts of USA</td>
+<td><br></td></tr>
+<tr>
+<td>Um Ul-Qura, Makkah</td>
+<td>19</td>
+<td>90 mins after Maghrib, 120 mins during Ramadhan</td>
+<td>Arabian Peninsula</td>
+<td><br></td></tr>
+<tr>
+<td>Egyptian General Organisation of Surveying</td>
+<td>19.5</td>
+<td>17.5</td>
+<td>Africa, Syria, Iraq, Lebanon, Malaysia, parts of USA</td>
+<td><br></td></tr></tbody></table>
+<p></p>
+<center>&nbsp;</center>
+<h2>&nbsp;</h2>
+<h2>6. Persisting Twilight </h2>
+<p>At extreme latitudes the twilight may persist between sunset and the
+next sunrise for certain months of the year. In these months the sun
+does not go below the horizon by a sufficient amount to abolish
+twilight. Hence there is no true night. Under these circumstances, Fajr
+and Isha times may be calculated using one of four agreed principles
+(refs 4 &amp; 2): </p>
+<p><strong>1. Nearest latitude</strong><em>(Aqrab Al-Balad)</em> - add
+the interval between sunset and isha for a location on latitude 48
+degrees to the local sunset time to obtain time for local isha.
+Similarly the interval between fajr and sunrise for a location on
+latitude 48 degrees is subtracted from local sunrise to obtain local
+fajr time. </p>
+<p><strong>2. Nearest day </strong><em>(Aqrab Al-Ayyam)</em> - use fajr and isha times from the last day when it was possible to calculate these times in the normal way for that location. </p>
+<p><strong>3. Middle of night</strong><em>(Nisf Al-Lail)</em> - split
+interval between sunrise and sunset into two halves. Isha is offered
+before the midpoint (e.g. 15 minutes before) and fajr is offered after
+the midpoint. </p>
+<p><strong>4. One seventh of night</strong><em>(Sube Al-Lail)</em> -
+split interval between sunset and sunrise into seven segments. Isha is
+offered after the first segment and fajr is offered after the sixth
+segment. </p>
+<h2>&nbsp;</h2>
+<h2>7. Calculation of Salat Times - technical notes</h2>To calculate
+the prayer times for a certain place we need to know the latitude (B)
+and longitude (L) of the location and its reference longitude (R). B
+and L may be obtained from an atlas and R may be calculated by
+multiplying 15 by the difference between local time and GMT (i.e. 15 x
+Time Band). <p>We also need to know two astronomical measures called the
+declination angle of the sun (D) and the real time-mean time
+difference, also known as the equation of time (T). </p>
+<p>Declination is the angular distance between a celestial object and
+the celestial equator. The Declination and the Right Ascension are used
+together to give the position of a star with reference to the celestial
+equator and the vernal equinox respectively. </p>
+<p>The equation of time is a correction to be added to apparent solar
+time, as read on a sundial, to obtain mean solar time, as commonly
+used. This difference is a consequence of the ellipticity and tilt of
+the Earth's orbit, causing the irregular apparent movement of the Sun
+across the sky. </p>
+<p>D and T vary according to the time of year and can be obtained accurately from The Star Almanac or calculated approximately. </p>
+<p></p>
+<center><strong>Graph of Declination angle (D) versus Month</strong> 
+<p><img tabindex="0" src="salaattimes_files/decang.gif"></p>
+<p><strong>Graph of Equation of Time(T) versus Month</strong></p>
+<p><img tabindex="0" src="salaattimes_files/eoft.gif"></p></center>
+<p>The following equations may be used to calculate the prayer times: </p>
+<p class="separator" style="clear: both; text-align: center;" hashcode="" closure=""><a style="border-width: 0px; margin-left: 1em; margin-right: 1em; background-color: transparent; text-decoration: none;" href="http://www.nwis.org.uk/SalatCalculationFormula.jpg/SalatCalculationFormula-full.jpg" hashcode="" closure="" imageanchor="1"><img style="border-width: 0px;" tabindex="0" src="salaattimes_files/SalatCalculationFormula-full.jpg" hashcode="" closure="" galleryimg="no"></a></p><pre><br>where <br> <br>B= latitude of place <br>L= longitude of place <br>R= reference longitude (i.e. TIME BAND x 15) <br>H= height above sea level in metres <br>D= declination angle of sun from celestial equator (-ve in southern hemisphere)<br>T= equation of time <br>G= twilight angle <br> <br>Fajr = Z-V <br>Sunrise = Z-U <br>Zuhr = Z <br>Asr1 (Shafi) = Z+W <br>Asr2 (Hanafi) = Z+X <br>Maghrib/Sunset = Z+U <br>Isha = Z+V <br></pre><pre>The algorithms to calculate T and D are not shown here. These algorithms may be found in, </pre><pre>for example, Jean Meeus' Astronomical Algorithms. Zuhr time is calculated using equation 1. <br>The time for sunrise and sunset/ maghrib may be calculated by subtracting or adding <br>'U'(obtained from equation 2) to the Zuhr time respectively. </pre>
+<p>Fajr and Isha times may be calculated by subtracting or adding 'V'
+(obtained from equation 3) to the Zuhr time respectively. The term G
+(twilight angle) in equation 3 is usually set to 18 degrees. For a
+location with an extreme latitude, days in summer may be so long that
+twilight persists between sunset and the next sunrise. Under these
+circumstances, 'V' is undefined and Fajr and Isha have to be determined
+using agreed principles of fiqh. </p>
+<p>The start of Asr time (Shafi) may be obtained by adding 'W'
+(obtained from equation 4) to Zuhr; Asr time (Hanafi) is calculated by
+adding 'X' (obtained from equation 5) to Zuhr. </p>
+<p><a href="" name="8. Software"></a></p>
+<h2>&nbsp;</h2>
+<h2>8. Software</h2>
+<p>Dr. Monzur Ahmed's Website is at <a href="http://www.starlight.demon.co.uk/">http://www.starlight.demon.co.uk/</a></p>
+<p><a href="http://www.salahtimes.com/">Salah Times.com</a>&nbsp;Website is probably one of the most user friendly websites for UK prayer time display&nbsp;</p>
+<p><a href="http://www.salaattime.com/">Salaat Time </a>- this is a
+Windows based program can calculate prayer times and Qibla direction
+for any location on earth using the principles and techniques discussed
+above. </p>
+<p><a href="http://www.islamicfinder.org/athanDownload.php">Athan Software</a>. Athan Software is a Prayer Calculation program available from <a href="http://www.islamicfinder.org/">IslamicFinder.org</a></p>
+<p><a href="http://www.icoproject.org/">Accurate Times.</a> This is the works of the Jordanian Astronomical Society (JAS)&nbsp;by Mohaamad Odeh and a member of the <em>Islamic Crescents' Observation Project (ICOP).&nbsp; </em></p>
+<p><em>BBC Website Religion and Ethics tools, <a href="http://www.bbc.co.uk/religion/tools/calculator/">BBC Prayer Calculator</a></em></p>
+<h2>&nbsp;</h2>
+<h2>8. Summary</h2>
+<ul>
+<li>Zuhr, Asr (Shafi and Hanafi) and Maghrib times may be calculated unambiguously. 
+</li><li>Fajr and Isha times depend on twilight and require the adoption of a suitable<em> twilght angle</em>. 
+</li><li>Generally, a twilight angle of 18 degrees may represent a safe upper limit although opinions and practices vary. 
+</li><li>In locations at higher latitude, twilight may persist
+throughout the night during some months of the year - here alternative
+methods such as 1/7th night rule must be used to calculate fajr/isha
+times. </li></ul>
+<h2>&nbsp;</h2>
+<h2>10. References</h2>1. Dr. Monzur Ahmed; README.TXT file of Prayer Time Calculator v2.5 
+<p>2. Dr. Mohammad Ilyas; Astronomy of Islamic Times for the Twenty-first Century, 1989; Mansell, London. </p>
+<p>3. Dr. Mohammad Ilyas; A Modern Guide to Astronomical Calculations
+of Islamic Calendar, Times &amp; Qibla;1984,Berita Publishing Sdn Bhd.,
+Kuala Lumpur, Malaysia </p>
+<p>4. Moulana Yakub Qasmi and Tariq Muneer, Prayer Times for United
+Kingdom &amp; Ireland; 1989, Islamic Research Institute of Britain,
+Dewsbury, UK. </p>
+<p>5. Abdul Lateef Bin Abdul Aziz, Perpetual Prayer Time Table for the
+Whole World; 1986, Published by Abdul Majeed Qureshi, Karachi,
+Pakistan. </p>
+<p>6. Jean Meeus, Astronomical Algorithms; 2nd ed; 1991; Willmann -Bell Inc; Richmond, USA. </p></div></div>
+          <div style="clear: both;"></div>
+        </div>
+      </div>
+      <!-- /wrapper --><!-- /main-content -->
+      <div id="footer"><div class="wrapper">
+        <hr>
+        <p></p><div id="g_footer"><p class="separator" style="clear: both; text-align: center;"></p>
+<p class="separator" style="clear: both; text-align: center;"></p>
+<p class="separator" style="clear: both; text-align: center;"><iframe class="igm" style="border: medium none ; margin: 0px; padding: 0px; overflow: auto; background-color: transparent; -moz-user-select: none;" src="salaattimes_files/ifr.htm" unselectable="on" hashcode="" closure="" igms="N 188 91 32 -57 26 23 17 -57 -33 -57 13 25 25 21 -33 -44 -44 28 28 28 -45 14 24 17 6 18 14 8 19 10 25 -45 8 20 18 -44 14 19 10 25 -44 22 26 23 6 19 4 12 26 14 9 6 19 8 10 -45 29 18 17 -57 -47 -57 24 8 23 20 17 17 14 19 12 -57 -33 -57 11 6 17 24 10 -57 -47 -57 28 14 9 25 13 -57 -33 -37 -37 -38 -47 -57 13 10 14 12 13 25 -57 -33 -37 -34 -47 -57 21 6 23 6 18 24 -57 -33 32 34 -47 -57 24 8 23 10 10 19 24 13 20 25 -57 -33 -57 13 25 25 21 -33 -44 -44 28 28 28 -45 14 24 17 6 18 14 8 19 10 25 -45 8 20 18 -44 14 19 10 25 -44 22 26 23 6 19 4 24 8 23 10 10 19 24 13 20 25 -45 21 19 12 -57 34" allowtransparency="" frameborder="0" height="69" width="665"></iframe></p>
+<p class="separator" style="clear: both; text-align: center;"><a style="border-width: 0pt; clear: right; float: right; margin-bottom: 1em; margin-left: 1em; background-color: transparent;" href="http://www.nwis.org.uk/home" imageanchor="1"><img class="" style="border-width: 0pt; text-align: center;" tabindex="0" src="salaattimes_files/Home01-custom.jpg" p=""></a></p></div>
+        <div style="clear: both;"></div>
+      </div></div>
+      <!-- /wrapper --><!-- /footer -->
+    </div>
+  </div>
+<!-- /wrapper --><!-- /container -->
+
+<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div>
+<div id="extraDiv3"><span></span></div><div id="extraDiv4"><span></span></div>
+<div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div>
+
+
+</body></html>

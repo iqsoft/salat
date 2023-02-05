@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.0.1.35 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>IQSoft Software Consultants</Company_Name>
+		<Address_1>SHAAZ</Address_1>
+		<Address_2>Vattamkulam P.O.</Address_2>
+		<City_Town>Edappal</City_Town>
+		<State_Province>Kerala</State_Province>
+		<Zip_Postal_Code>679578</Zip_Postal_Code>
+		<Country>India</Country>
+		<Company_WebSite_URL>http://iqsoft.iqu.co.in</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Mohamed Iqbal</Author_First_Name>
+			<Author_Last_Name>Pallipurath</Author_Last_Name>
+			<Author_Email>iqsoft@iqu.co.in</Author_Email>
+			<Contact_First_Name>Mohamed Iqbal</Contact_First_Name>
+			<Contact_Last_Name>Pallipurath</Contact_Last_Name>
+			<Contact_Email>iqsoft@iqu.co.in</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>iqsoft@iqu.co.in</Sales_Email>
+			<Support_Email>iqsoft@iqu.co.in</Support_Email>
+			<General_Email>iqsoft@iqu.co.in</General_Email>
+			<Sales_Phone>+919895154384</Sales_Phone>
+			<Support_Phone>+919895154384</Support_Phone>
+			<General_Phone>+919895154384</General_Phone>
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>Salat</Program_Name>
+		<Program_Version>0.1.30</Program_Version>
+		<Program_Release_Month>01</Program_Release_Month>
+		<Program_Release_Day>21</Program_Release_Day>
+		<Program_Release_Year>2008</Program_Release_Year>
+		<Program_Cost_Dollars>0.00</Program_Cost_Dollars>
+		<Program_Cost_Other_Code>INR</Program_Cost_Other_Code>
+		<Program_Cost_Other>0.00</Program_Cost_Other>
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>WinME,WinNT 3.x,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info>Voice support</Program_Change_Info>
+		<Program_Specific_Category>Home/Hobby</Program_Specific_Category>
+		<Program_Category_Class>Home &amp; Hobby::Astronomy</Program_Category_Class>
+		<Program_System_Requirements>P3 or Higher CPU, 16 MB Hard Disk Space, 128 MB RAM</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>14030900</File_Size_Bytes>
+			<File_Size_K>13702</File_Size_K>
+			<File_Size_MB>13.38</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>Salat, Astronomy, Islam, Namaz, Prayer, Fajr, Zuhr, Asr, Magrib, Isha, Sunrise </Keywords>
+			<Char_Desc_45>Salat calculates the prayer times for you</Char_Desc_45>
+			<Char_Desc_80>Salat calculates the prayer times for your location. Anywhere</Char_Desc_80>
+			<Char_Desc_250>Salat calculates the prayer times for your location. If your city is not in the database (unlikely, since it has 36,000 cities in it), just feed it the latitude and longitude of your place (Get that from Google Earth) and it will calculate the times.</Char_Desc_250>
+			<Char_Desc_450>Salat calculates the prayer times for your location. If your city is not in the database (unlikely, since it has 36,000 cities in it), just feed it the latitude and longitude of your place (Get that from Google Earth) and it will calculate the times of Namaz. 
+
+Options for calculating according to Hanafi and Shafe'ee schools of Jurisprudence. 
+
+Other options include Height of your location (which changes the salat timing...)
+</Char_Desc_450>
+			<Char_Desc_2000>Salat calculates the prayer times for your location. If your city is not in the database (unlikely, since it has 36,000 cities in it), just feed it the latitude and longitude of your place (Get that from Google Earth) and it will calculate the times of Namaz. 
+
+Options for calculating according to Hanafi and Shafe'ee schools of Jurisprudence. 
+
+Other options include Height of your location (which changes the salat timing...)
+
+Now don't miss a prayer even if you are on the tip of Everest :)
+
+You can also customize your Fajr and Isha timings with a customized twilight angle...depending on the traditions at your place.
+
+Prepare customized printouts for the entire year...
+
+All this with a Jazzy interface and Adans from Medina, Mecca and more...</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL />
+			<Application_Order_URL />
+			<Application_Screenshot_URL />
+			<Application_Icon_URL />
+			<Application_XML_File_URL />
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://iqsoft.iqu.co.in/salat/salat.rar</Primary_Download_URL>
+			<Secondary_Download_URL>http://iqu.co.in/clients/salat.rar</Secondary_Download_URL>
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>FREE</Distribution_Permissions>
+		<EULA>IQSOFT SOFTWARE End User License Agreement (EULA)
+
+IMPORTANT: THIS SOFTWARE END USER LICENSE AGREEMENT (“EULA”) IS A LEGAL AGREEMENT BETWEEN YOU AND IQSOFT SOFTWARE CONSULTANTS. READ IT CAREFULLY BEFORE COMPLETING THE INSTALLATION PROCESS AND USING THE SOFTWARE. IT PROVIDES A LICENSE TO USE THE SOFTWARE AND CONTAINS WARRANTY INFORMATION AND LIABILITY DISCLAIMERS. BY INSTALLING AND USING THE SOFTWARE, YOU ARE CONFIRMING YOUR ACCEPTANCE OF THE SOFTWARE AND AGREEING TO BECOME BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO BE BOUND BY THESE TERMS, THEN DO NOT INSTALL THE SOFTWARE AND DELETE IT FROM YOUR COMPUTER SYSTEM.
+
+
+THIS EULA SHALL APPLY ONLY TO THE SOFTWARE SUPPLIED BY IQSOFT SOFTWARE CONSULTANTS HEREWITH REGARDLESS OF WHETHER OTHER SOFTWARE IS REFERRED TO OR DESCRIBED HEREIN.
+
+
+1. Definitions
+
+
+(a) "Demo Version" means a version of the Software, so identified, for use by students and faculty of educational institutions for research purposes, and for review and evaluation of the Software by commercial organisations. The Demo Version may have limited features.
+
+(b) "IQSOFT" means IQSOFT Software Consultants, India, and its licensors, if any. 
+
+(c) "Software" means only the IQSOFT software program(s), in each case, supplied by IQSOFT herewith, and corresponding documentation, associated media, printed materials, and online or electronic documentation.
+
+(d) "Appropriate Credit" means suitable reference should be made to the licensor of the Software, IQSOFT  Software Consultants, where results generated by the Software are included as part of a written publication, written or oral presentation, or any occasion where results are made available to the public. “Suitable reference” means the origins of the Software should be included in a reference list of a publication, or provided clearly, either written or orally, as part of a presentation. “Results” mean any numerical or graphical information generated by the Software through execution of operations performed by the Software.
+
+
+2. License Grants 
+
+
+(a) You may install and use the Software on a single computer; OR install and store the Software on a storage device, such as a network server, used only to install the Software on your other computers over an internal network. A license for the Software may not be shared, installed or used concurrently on different computers. 
+
+(b) You may make one copy of the Software in machine-readable form solely for backup purposes. You must reproduce on any such copy all copyright notices and any other proprietary legends on the original copy of the Software. 
+
+(c) The Demo Version may not be used for, or distributed to any party for, any commercial purpose, unless specific written permission is given by IQSOFT Software Consultants.
+
+(c) The Demo Version may be used research purposes as long as appropriate credit is given to IQSOFT Software Consultants.
+
+(d) You agree that IQSOFT Software Consultants may audit your use of the Software for compliance with these terms at any time, upon reasonable notice. 
+
+(e) Your license rights under this EULA are non-exclusive. 
+
+
+3. License Restrictions
+
+
+(a) Other than as set forth in Section 2, you may not make or distribute copies of the Software, or electronically transfer the Software from one computer to another or over a network. 
+
+(b) You may not alter, merge, modify, adapt or translate the Software, or decompile, reverse engineer, disassemble, or otherwise reduce the Software to a human-perceivable form. 
+
+(c) Unless otherwise provided herein, you may not rent, lease, or sublicense the Software. 
+
+(d) You may not sell or transfer any Demo Version of the Software.
+
+(e) Unless otherwise provided herein, you may not modify the Software or create derivative works based upon the Software.
+
+(f) Unless otherwise provided herein, you shall not (A) in the aggregate, install or use more than one copy of the Demo Version of the Software, (B) download the Demo Version of the Software under more than one username, (C) alter the contents of a hard drive or computer system to remove limitations of the Demo Version of the Software.
+
+(g) You may not export the Software into any country prohibited by the India export regulations.
+
+(h) In the event that you fail to comply with this EULA, IQSOFT may terminate the license and you must destroy all copies of the Software (with all other rights of both parties and all other provisions of this EULA surviving any such termination).
+ 
+
+
+4. Ownership
+
+
+The foregoing license gives you limited license to use the Software. IQSOFT  and its suppliers retain all right, title and interest, including all copyright and intellectual property rights, in and to, the Software (as an independent work and as an underlying work serving as a basis for any application you may develop), and all copies thereof. All rights not specifically granted in this EULA, including India and International Copyrights, are reserved by IQSOFT and its suppliers.
+
+
+5. WARRANTY AND DISCLAIMER
+
+
+(a) IQSOFT IS NOT OBLIGED TO PROVIDE REMEDIES OR WARRANTIES, WHETHER EXPRESS OR IMPLIED, FOR THE DEMO VERSION OF THE SOFTWARE. THE DEMO VERSION OF THE SOFTWARE IS PROVIDED “AS IS”. 
+
+(b) THE SOFTWARE IS NOT DESIGNED, INTENDED OR LICENSED FOR USE IN HAZARDOUS ENVIRONMENTS REQUIRING FAIL-SAFE CONTROLS, INCLUDING WITHOUT LIMITATION, THE DESIGN, CONSTRUCTION, MAINTENANCE OR OPERATION OF NUCLEAR FACILITIES, AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL, AND LIFE SUPPORT OR WEAPONS SYSTEMS. IQSOFT SPECIFICALLY DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTY OF FITNESS FOR SUCH PURPOSES.
+
+
+(c) NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY IQSOFT, ITS DEALERS, DISTRIBUTORS, AGENTS OR EMPLOYEES SHALL CREATE A WARRANTY OR IN ANY WAY INCREASE THE SCOPE OF ANY WARRANTY PROVIDED. 
+
+
+6. LIMITATION OF LIABILITY
+
+
+(a) NEITHER IQSOFT  SOFTWARE CONSULTANTS NOR ITS SUPPLIERS SHALL BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE, COVER OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR THE INABILITY TO USE EQUIPMENT OR ACCESS DATA, LOSS OF BUSINESS, LOSS OF PROFITS, BUSINESS INTERRUPTION OR THE LIKE), ARISING OUT OF THE USE OF, OR INABILITY TO USE, THE SOFTWARE AND BASED ON ANY THEORY OF LIABILITY INCLUDING BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR OTHERWISE, EVEN IF IQSOFT  OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.
+
+
+(b) THE FOREGOING LIMITATIONS ON LIABILITY ARE INTENDED TO APPLY TO THE WARRANTIES AND DISCLAIMERS ABOVE AND ALL OTHER ASPECTS OF THIS EULA.
+
+
+7. Basis of Bargain 
+
+
+The Limited Warranty and Disclaimer and Limited Liability set forth above are fundamental elements of the basis of the agreement between IQSOFT and you. IQSOFT would not be able to provide the Software on an economic basis without such limitations.
+
+
+8. (Outside of INDIA) Consumer End Users Only
+
+
+The limitations or exclusions of warranties and liability contained in this EULA do not affect or prejudice the statutory rights of a consumer, i.e., a person acquiring goods otherwise than in the course of a business.
+
+
+The limitations or exclusions of warranties, remedies or liability contained in this EULA shall apply to you only to the extent such limitations or exclusions are permitted under the laws of the jurisdiction where you are located. 
+
+
+9. General
+
+
+This EULA contains the complete agreement between the parties with respect to the subject matter hereof, and supersedes all prior or contemporaneous agreements or understandings, whether oral or written. You agree that any varying or additional terms contained in any purchase order or other written notification or document issued by you in relation to the Software licensed hereunder shall be of no effect. The failure or delay of IQSOFT to exercise any of its rights under this EULA or upon any breach of this EULA shall not be deemed a waiver of those rights or of the breach.
+
+
+No IQSOFT dealer, agent or employee is authorised to make any amendment to this EULA. 
+
+
+If any provision of this Agreement shall be held by a court of competent jurisdiction to be contrary to law that provision will be enforced to the maximum extent permissible and the remaining provisions of this Agreement will remain in full force and effect.
+
+
+All questions concerning this EULA shall be directed to: Mohamed Iqbal Pallipurath, IQSOFT Software Consultants, “SHAAZ”, Vattamkulam P.O., INDIA.
+
+
+
+
+
+</EULA>
+	</Permissions>
+	<Affiliates>
+		<Affiliates_FORM>Y</Affiliates_FORM>
+		<Affiliates_VERSION>1.2</Affiliates_VERSION>
+		<Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+		<Affiliates_Information_Page />
+		<Affiliates_Avangate_Order_Page />
+		<Affiliates_Avangate_Vendor_ID />
+		<Affiliates_Avangate_Product_ID />
+		<Affiliates_Avangate_Maximum_Commission_Rate />
+		<Affiliates_BMTMicro_Order_Page />
+		<Affiliates_BMTMicro_Vendor_ID />
+		<Affiliates_BMTMicro_Product_ID />
+		<Affiliates_BMTMicro_Maximum_Commission_Rate />
+		<Affiliates_clixGalore_Order_Page />
+		<Affiliates_clixGalore_Vendor_ID />
+		<Affiliates_clixGalore_Product_ID />
+		<Affiliates_clixGalore_Maximum_Commission_Rate />
+		<Affiliates_CommissionJunction_Order_Page />
+		<Affiliates_CommissionJunction_Vendor_ID />
+		<Affiliates_CommissionJunction_Product_ID />
+		<Affiliates_CommissionJunction_Maximum_Commission_Rate />
+		<Affiliates_DigiBuy_Order_Page />
+		<Affiliates_DigiBuy_Vendor_ID />
+		<Affiliates_DigiBuy_Product_ID />
+		<Affiliates_DigiBuy_Maximum_Commission_Rate />
+		<Affiliates_DigitalCandle_Order_Page />
+		<Affiliates_DigitalCandle_Vendor_ID />
+		<Affiliates_DigitalCandle_Product_ID />
+		<Affiliates_DigitalCandle_Maximum_Commission_Rate />
+		<Affiliates_Emetrix_Order_Page />
+		<Affiliates_Emetrix_Vendor_ID />
+		<Affiliates_Emetrix_Product_ID />
+		<Affiliates_Emetrix_Maximum_Commission_Rate />
+		<Affiliates_eSellerate_Order_Page />
+		<Affiliates_eSellerate_Vendor_ID />
+		<Affiliates_eSellerate_Product_ID />
+		<Affiliates_eSellerate_Maximum_Commission_Rate />
+		<Affiliates_Kagi_Order_Page />
+		<Affiliates_Kagi_Vendor_ID />
+		<Affiliates_Kagi_Product_ID />
+		<Affiliates_Kagi_Maximum_Commission_Rate />
+		<Affiliates_LinkShare_Order_Page />
+		<Affiliates_LinkShare_Vendor_ID />
+		<Affiliates_LinkShare_Product_ID />
+		<Affiliates_LinkShare_Maximum_Commission_Rate />
+		<Affiliates_NorthStarSol_Order_Page />
+		<Affiliates_NorthStarSol_Vendor_ID />
+		<Affiliates_NorthStarSol_Product_ID />
+		<Affiliates_NorthStarSol_Maximum_Commission_Rate />
+		<Affiliates_Order1_Order_Page />
+		<Affiliates_Order1_Vendor_ID />
+		<Affiliates_Order1_Product_ID />
+		<Affiliates_Order1_Maximum_Commission_Rate />
+		<Affiliates_Osolis_Order_Page />
+		<Affiliates_Osolis_Vendor_ID />
+		<Affiliates_Osolis_Product_ID />
+		<Affiliates_Osolis_Maximum_Commission_Rate />
+		<Affiliates_Plimus_Order_Page />
+		<Affiliates_Plimus_Vendor_ID />
+		<Affiliates_Plimus_Product_ID />
+		<Affiliates_Plimus_Maximum_Commission_Rate />
+		<Affiliates_Regnet_Order_Page />
+		<Affiliates_Regnet_Vendor_ID />
+		<Affiliates_Regnet_Product_ID />
+		<Affiliates_Regnet_Maximum_Commission_Rate />
+		<Affiliates_Regnow_Order_Page />
+		<Affiliates_Regnow_Vendor_ID />
+		<Affiliates_Regnow_Product_ID />
+		<Affiliates_Regnow_Maximum_Commission_Rate />
+		<Affiliates_Regsoft_Order_Page />
+		<Affiliates_Regsoft_Vendor_ID />
+		<Affiliates_Regsoft_Product_ID />
+		<Affiliates_Regsoft_Maximum_Commission_Rate />
+		<Affiliates_ShareIt_Order_Page />
+		<Affiliates_ShareIt_Vendor_ID />
+		<Affiliates_ShareIt_Product_ID />
+		<Affiliates_ShareIt_Maximum_Commission_Rate />
+		<Affiliates_Shareasale_Order_Page />
+		<Affiliates_Shareasale_Vendor_ID />
+		<Affiliates_Shareasale_Product_ID />
+		<Affiliates_Shareasale_Maximum_Commission_Rate />
+		<Affiliates_SWReg_Order_Page />
+		<Affiliates_SWReg_Vendor_ID />
+		<Affiliates_SWReg_Product_ID />
+		<Affiliates_SWReg_Maximum_Commission_Rate />
+		<Affiliates_V-Share_Order_Page />
+		<Affiliates_V-Share_Vendor_ID />
+		<Affiliates_V-Share_Product_ID />
+		<Affiliates_V-Share_Maximum_Commission_Rate />
+		<Affiliates_VFree_Order_Page />
+		<Affiliates_VFree_Vendor_ID />
+		<Affiliates_VFree_Product_ID />
+		<Affiliates_VFree_Maximum_Commission_Rate />
+		<Affiliates_Yaskifo_Order_Page />
+		<Affiliates_Yaskifo_Vendor_ID />
+		<Affiliates_Yaskifo_Product_ID />
+		<Affiliates_Yaskifo_Maximum_Commission_Rate />
+	</Affiliates>
+</XML_DIZ_INFO>
